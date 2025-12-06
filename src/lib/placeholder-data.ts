@@ -178,3 +178,38 @@ export const heroBanners = [
     buttonLink: '/contact',
   },
 ];
+
+export const certifications = [
+  {
+    id: 'msme',
+    title: 'MSME',
+    description: 'Registered under the MSME department of the Indian Government.',
+    imageId: 'cert-msme'
+  },
+  {
+    id: 'nsic',
+    title: 'NSIC',
+    description: 'Registered with NSIC, a government enterprise supporting MSMEs.',
+    imageId: 'cert-nsic'
+  },
+  {
+    id: 'iso',
+    title: 'ISO 14001:2015',
+    description: 'Certified for international quality and environmental management.',
+    imageId: 'cert-iso'
+  },
+  {
+    id: 'startup-india',
+    title: 'Startup India',
+    description: 'Recognized under the Startup India initiative by the Indian Government.',
+    imageId: 'cert-startup-india'
+  },
+  {
+    id: 'gem',
+    title: 'GeM',
+    description: 'Registered on the Government e-Marketplace for public procurement.',
+    imageId: 'cert-gem'
+  }
+];
+
+    

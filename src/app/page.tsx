@@ -20,12 +20,13 @@ import {
 } from '@/components/ui/carousel';
 import { Badge } from '@/components/ui/badge';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
-import { portfolio, services, testimonials } from '@/lib/placeholder-data';
+import { portfolio, services, testimonials, certifications } from '@/lib/placeholder-data';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { HeroSlider } from '@/components/common/hero-slider';
 
 export default function Home() {
   const portfolioImages = portfolio.map(p => PlaceHolderImages.find(img => img.id === p.coverImageId));
+  const certificationImages = certifications.map(c => PlaceHolderImages.find(img => img.id === c.imageId));
 
   return (
     <div className="flex flex-col">
@@ -92,8 +93,45 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Certifications Section */}
+      <section id="certifications" className="py-16 lg:py-24 bg-card">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="font-headline text-3xl md:text-4xl font-bold">Our Certifications</h2>
+            <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
+              We are a recognized and certified company you can trust.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            {certifications.map((cert, index) => {
+              const image = certificationImages[index];
+              return (
+                <div key={cert.id} className="flex items-start gap-4">
+                  <div className="flex-shrink-0">
+                    {image && (
+                      <Image
+                        src={image.imageUrl}
+                        alt={cert.title}
+                        data-ai-hint={image.imageHint}
+                        width={64}
+                        height={64}
+                        className="rounded-md object-contain"
+                      />
+                    )}
+                  </div>
+                  <div>
+                    <h3 className="font-headline text-lg font-bold">{cert.title}</h3>
+                    <p className="text-muted-foreground text-sm">{cert.description}</p>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
       {/* Project Portfolio Preview */}
-      <section id="portfolio" className="py-16 lg:py-24 bg-card">
+      <section id="portfolio" className="py-16 lg:py-24">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="font-headline text-3xl md:text-4xl font-bold">Our Projects</h2>
@@ -176,8 +214,8 @@ export default function Home() {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious />
-            <CarouselNext />
+            <CarouselPrevious className="absolute left-2 top-1/2 -translate-y-1/2 z-10" />
+            <CarouselNext className="absolute right-2 top-1/2 -translate-y-1/2 z-10" />
           </Carousel>
         </div>
       </section>
@@ -199,3 +237,5 @@ export default function Home() {
     </div>
   );
 }
+
+    

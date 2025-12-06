@@ -9,19 +9,19 @@
     {
       "id": "hero-rooftop",
       "description": "A low-angle shot of a residential rooftop covered in solar panels against a setting sun.",
-      "imageUrl": "https://images.unsplash.com/photo-1629251863555-8d1a6d717088?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzb2xhciUyMHJvb2Z0b3B8ZW58MHx8fHwxNzY1MTIwNDIyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1635424709845-3a85ad5e1f5e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c29sYXIlMjByb29mdG9wfGVufDB8fHx8MTc2NDkxODg3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "solar rooftop"
     },
     {
       "id": "hero-panels",
       "description": "A close-up photograph of a solar panel, showing the texture of the photovoltaic cells.",
-      "imageUrl": "https://images.unsplash.com/photo-1546522365-0b48b64b1a8f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzb2xhciUyMHBhbmVsJTIwY2xvc2V1cHxlbnwwfHx8fDE3NjUxMjA0MjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1660330589257-813305a4a383?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzb2xhciUyMHBhbmVsfGVufDB8fHx8MTc2NTAwOTYyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "solar panel"
     },
     {
       "id": "project-1",
       "description": "A close-up shot of solar panels being installed on a suburban home.",
-      "imageUrl": "https://images.unsplash.com/photo-1660330589243-4c640d878052?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzb2xhciUyMGluc3RhbGxhdGlvbnxlbnwwfHx8fDE3NjUwMDc3Mjh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1660330589243-4c640d8778052?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzb2xhciUyMGluc3RhbGxhdGlvbnxlbnwwfHx8fDE3NjUwMDc3Mjh8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "solar installation"
     },
     {
@@ -93,7 +93,7 @@
     {
       "id": "blog-1",
       "description": "An infographic explaining the financial benefits of solar energy.",
-      "imageUrl": "https://images.unsplash.com/photo-1699794043417-afcdfd0a4493?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzb2xhciUyMHNhdmluZ3N8ZW58MHx8fHwxNzY1MDA3NzI4fDA&ixlibrb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1699794043417-afcdfd0a4493?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzb2xhciUyMHNhdmluZ3N8ZW58MHx8fHwxNzY1MDA3NzI4fDA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "solar savings"
     },
     {
@@ -107,6 +107,36 @@
       "description": "A diagram showing how solar energy is converted into electricity for a home.",
       "imageUrl": "https://images.unsplash.com/photo-1692611825915-0f3c9bdb257d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzb2xhciUyMHRlY2hub2xvZ3l8ZW58MHx8fHwxNzY1MDA3NzI4fDA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "solar technology"
+    },
+    {
+      "id": "cert-msme",
+      "description": "Logo for MSME India.",
+      "imageUrl": "https://images.unsplash.com/photo-1676969048242-0669dcb69762?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxnb3Zlcm5tZW50JTIwbG9nb3xlbnwwfHx8fDE3NjUwMTYwOTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "government logo"
+    },
+    {
+      "id": "cert-nsic",
+      "description": "Logo for NSIC.",
+      "imageUrl": "https://images.unsplash.com/photo-1676970124919-ea078b50e99a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxnb3Zlcm5tZW50JTIwbG9nb3xlbnwwfHx8fDE3NjUwMTYwOTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "government logo"
+    },
+    {
+      "id": "cert-iso",
+      "description": "Logo for ISO certification.",
+      "imageUrl": "https://images.unsplash.com/photo-1628927013432-99ae87d89cb7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjZXJ0aWZpY2F0ZSUyMHNlYWx8ZW58MHx8fHwxNzY1MDE2MDk2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "certificate seal"
+    },
+    {
+      "id": "cert-startup-india",
+      "description": "Logo for Startup India.",
+      "imageUrl": "https://images.unsplash.com/photo-1676969048242-0669dcb69762?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxnb3Zlcm5tZW50JTIwbG9nb3xlbnwwfHx8fDE3NjUwMTYwOTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "government logo"
+    },
+    {
+      "id": "cert-gem",
+      "description": "Logo for Government e-Marketplace (GeM).",
+      "imageUrl": "https://images.unsplash.com/photo-1676970133022-9c34f5e35df2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxnb3Zlcm5tZW50JTIwbG9nb3xlbnwwfHx8fDE3NjUwMTYwOTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "government logo"
     }
   ]
 }
