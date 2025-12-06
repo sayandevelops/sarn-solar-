@@ -45,9 +45,9 @@ export function Footer() {
           <div className="md:col-span-1">
             <h4 className="font-headline font-semibold">Contact Info</h4>
             <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
-              <li>123 Solar Marg, Surya Nagar, Mumbai, India</li>
-              <li>+91 22 4567 8901</li>
-              <li>info@sarnsolar.in</li>
+              <li>Swapna Neer Apartment. 05, RNC Road, Kolkata-700147</li>
+              <li>+91 94326 89034</li>
+              <li>contact@sarnsolar.in</li>
             </ul>
           </div>
         </div>

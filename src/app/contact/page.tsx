@@ -32,7 +32,7 @@ export default function ContactPage() {
               </div>
               <div>
                 <h3 className="font-semibold text-lg">Our Office</h3>
-                <p className="text-muted-foreground">123 Solar Marg, Surya Nagar, Mumbai, India</p>
+                <p className="text-muted-foreground">Swapna Neer Apartment. 05, RNC Road, Kolkata-700147</p>
               </div>
             </div>
             <div className="flex items-start gap-4">
@@ -41,7 +41,7 @@ export default function ContactPage() {
               </div>
               <div>
                 <h3 className="font-semibold text-lg">Email Us</h3>
-                <p className="text-muted-foreground">info@sarnsolar.in</p>
+                <p className="text-muted-foreground">contact@sarnsolar.in</p>
               </div>
             </div>
             <div className="flex items-start gap-4">
@@ -50,7 +50,7 @@ export default function ContactPage() {
               </div>
               <div>
                 <h3 className="font-semibold text-lg">Call Us</h3>
-                <p className="text-muted-foreground">+91 22 4567 8901</p>
+                <p className="text-muted-foreground">+91 94326 89034</p>
               </div>
             </div>
           </div>
