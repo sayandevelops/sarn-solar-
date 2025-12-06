@@ -25,7 +25,7 @@ import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { HeroSlider } from '@/components/common/hero-slider';
 
 export default function Home() {
-  const portfolioImages = portfolio.map(p => PlaceHolderImages.find(img => img.id === p.imageId));
+  const portfolioImages = portfolio.map(p => PlaceHolderImages.find(img => img.id === p.coverImageId));
 
   return (
     <div className="flex flex-col">
@@ -105,21 +105,37 @@ export default function Home() {
             {portfolio.slice(0, 2).map((project, index) => {
               const image = portfolioImages[index];
               return (
-              <Card key={project.id} className="overflow-hidden group">
-                <CardContent className="p-0">
-                  <div className="relative h-64 w-full">
-                    {image && <Image src={image.imageUrl} alt={image.description} data-ai-hint={image.imageHint} fill className="object-cover" />}
-                  </div>
-                  <div className="p-6">
-                    <h3 className="text-xl font-bold font-headline">{project.title}</h3>
-                    <p className="mt-2 text-muted-foreground">{project.description}</p>
-                  </div>
-                </CardContent>
-              </Card>
-            )})}
+                <Link key={project.id} href={`/portfolio/${project.slug}`} className="block group">
+                  <Card className="overflow-hidden h-full flex flex-col">
+                    <div className="relative h-64 w-full overflow-hidden">
+                      {image && (
+                        <Image
+                          src={image.imageUrl}
+                          alt={image.description}
+                          data-ai-hint={image.imageHint}
+                          fill
+                          className="object-cover transition-transform duration-300 group-hover:scale-105"
+                        />
+                      )}
+                       <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                       <div className="absolute bottom-0 left-0 p-6">
+                          <h3 className="text-2xl font-bold font-headline text-white">{project.title}</h3>
+                          <p className="text-sm text-primary-foreground/80">{project.location}</p>
+                       </div>
+                    </div>
+                    <CardContent className="p-6 flex-grow flex flex-col justify-between">
+                      <p className="text-muted-foreground">{project.description}</p>
+                      <Button variant="link" className="p-0 mt-4 self-start">
+                        View Project <ArrowRight className="ml-2 h-4 w-4" />
+                      </Button>
+                    </CardContent>
+                  </Card>
+                </Link>
+              )
+            })}
           </div>
           <div className="text-center mt-12">
-            <Button asChild size="lg" variant="outline">
+            <Button asChild size="lg">
               <Link href="/portfolio">
                 View All Projects <ArrowRight className="ml-2 h-5 w-5" />
               </Link>

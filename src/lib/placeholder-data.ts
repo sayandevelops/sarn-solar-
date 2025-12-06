@@ -1,3 +1,4 @@
+
 export const services = [
   {
     id: 'installation',
@@ -22,35 +23,51 @@ export const services = [
 export const portfolio = [
   {
     id: '1',
+    slug: 'pune-bungalow-transformation',
     title: 'Bungalow Transformation',
     location: 'Koregaon Park, Pune',
     description: 'A 10kW system designed to cover 100% of this family\'s energy needs, featuring sleek, low-profile panels.',
-    imageId: 'project-1',
     testimonial: 'The Sarn Solar team was professional and efficient. Our electricity bill has been zero since the installation!',
+    coverImageId: 'project-1',
+    details: '<p>This project involved a complete energy overhaul for a modern bungalow in the heart of Pune. Our goal was to achieve 100% energy independence for the family while respecting the home\'s aesthetic. We designed a custom 10kW rooftop system using high-efficiency monocrystalline panels that blend seamlessly with the roofline. The system is paired with a state-of-the-art inverter and a battery storage system to ensure uninterrupted power, even during grid outages.</p><h4 class="font-bold text-lg mt-4 mb-2">Project Highlights:</h4><ul class="list-disc list-inside text-muted-foreground"><li>10kW High-Efficiency Solar Array</li><li>5kWh Battery Storage Unit</li><li>25-Year Performance Warranty</li><li>Estimated Annual Savings: ₹1,20,000</li></ul>',
+    galleryImageIds: ['project-1', 'pune-gallery-1', 'pune-gallery-2'],
+    videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ'
   },
   {
     id: '2',
+    slug: 'mumbai-bkc-commercial-office',
     title: 'Office Building in BKC',
     location: 'Bandra Kurla Complex, Mumbai',
     description: 'A 150kW commercial project that significantly reduced the building\'s operating costs and carbon footprint.',
-    imageId: 'project-2',
     testimonial: 'A fantastic investment for our business. The process was smooth and the results exceeded our expectations.',
+    coverImageId: 'project-2',
+    details: '<p>This large-scale commercial installation at a prominent office building in Mumbai\'s business district was designed to offset peak energy costs and demonstrate corporate environmental responsibility. The 150kW system covers a significant portion of the building\'s daytime energy consumption, leading to substantial operational savings. The project was completed in phases to avoid disruption to business operations and has become a benchmark for green buildings in the area.</p><h4 class="font-bold text-lg mt-4 mb-2">Project Highlights:</h4><ul class="list-disc list-inside text-muted-foreground"><li>150kW Commercial Rooftop System</li><li>Advanced Power Monitoring & Management</li><li>Reduced Carbon Footprint by 200 tons annually</li><li>Projected Payback Period: 4.5 Years</li></ul>',
+    galleryImageIds: ['project-2', 'mumbai-gallery-1', 'mumbai-gallery-2'],
+    videoUrl: null
   },
   {
     id: '3',
+    slug: 'lonavala-modern-farmhouse',
     title: 'Modern Farmhouse Goes Green',
     location: 'Lonavala, Maharashtra',
     description: 'This 8kW system complements the home\'s modern aesthetic while providing substantial energy savings.',
-    imageId: 'project-3',
     testimonial: 'We love our solar panels! They look great and it feels good to be using clean energy.',
+    coverImageId: 'project-3',
+    details: '<p>For this scenic farmhouse in Lonavala, the owners wanted a solar solution that was both powerful and visually unobtrusive. We installed an 8kW system with all-black panels that matched the home\'s contemporary design. The system powers the entire home, including the pool pump and electric vehicle charger, providing energy security and significant savings in a location with sometimes unreliable grid power.</p><h4 class="font-bold text-lg mt-4 mb-2">Project Highlights:</h4><ul class="list-disc list-inside text-muted-foreground"><li>8kW All-Black Panel System</li><li>EV Charger Integration</li><li>Seamless integration with modern architecture</li><li>Backup power for essential loads</li></ul>',
+    galleryImageIds: ['project-3', 'lonavala-gallery-1', 'lonavala-gallery-2'],
+    videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ'
   },
   {
     id: '4',
+    slug: 'nashik-agricultural-power',
     title: 'Agricultural Power Solution',
     location: 'Nashik, Maharashtra',
     description: 'A robust 50kW ground-mounted system to power irrigation and farm equipment, ensuring energy independence.',
-    imageId: 'project-4',
     testimonial: 'SARN SOLAR understood our unique energy needs as a farm and delivered a perfect solution.',
+    coverImageId: 'project-4',
+    details: '<p>Energy reliability is critical for modern agriculture. For this farm in Nashik, we developed a 50kW ground-mounted solar array to provide consistent power for irrigation pumps, cold storage, and other essential equipment. This solution has drastically reduced their reliance on expensive and polluting diesel generators, stabilized their operational costs, and ensured their crops get the water they need, when they need it.</p><h4 class="font-bold text-lg mt-4 mb-2">Project Highlights:</h4><ul class="list-disc list-inside text-muted-foreground"><li>50kW Ground-Mounted Solar Farm</li><li>Powering Critical Irrigation Systems</li><li>Eliminated Diesel Generator Dependency</li><li>Durable, low-maintenance design for rural environments</li></ul>',
+    galleryImageIds: ['project-4', 'nashik-gallery-1', 'nashik-gallery-2'],
+    videoUrl: null
   },
 ];
 

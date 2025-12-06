@@ -9,13 +9,13 @@
     {
       "id": "hero-rooftop",
       "description": "A low-angle shot of a residential rooftop covered in solar panels against a setting sun.",
-      "imageUrl": "https://images.unsplash.com/photo-1613665813446-82a78c468a1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzb2xhciUyMHJvb2Z0b3B8ZW58MHx8fHwxNzY0OTE4ODc2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1629251863555-8d1a6d717088?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzb2xhciUyMHJvb2Z0b3B8ZW58MHx8fHwxNzY1MTIwNDIyfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "solar rooftop"
     },
     {
       "id": "hero-panels",
       "description": "A close-up photograph of a solar panel, showing the texture of the photovoltaic cells.",
-      "imageUrl": "https://images.unsplash.com/photo-1509391366360-2e959784a276?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzb2xhciUyMHBhbmVsfGVufDB8fHx8MTc2NTAwOTYyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1546522365-0b48b64b1a8f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzb2xhciUyMHBhbmVsJTIwY2xvc2V1cHxlbnwwfHx8fDE3NjUxMjA0MjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "solar panel"
     },
     {
@@ -41,6 +41,54 @@
       "description": "Drone shot of a rural farm with solar panels powering its operations.",
       "imageUrl": "https://images.unsplash.com/photo-1502637098811-fa9526d2b659?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzb2xhciUyMGZhcm18ZW58MHx8fHwxNzY0OTE4ODc2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "solar farm"
+    },
+    {
+      "id": "pune-gallery-1",
+      "description": "An inverter and battery storage system neatly installed on the side of a house.",
+      "imageUrl": "https://images.unsplash.com/photo-1739268984311-b478fccf256e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzb2xhciUyMGludmVydGVyJTIwYmF0dGVyeXxlbnwwfHx8fDE3NjQ5MTg4NzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "solar inverter battery"
+    },
+    {
+      "id": "pune-gallery-2",
+      "description": "A homeowner smiling while looking at their low electricity bill on a tablet.",
+      "imageUrl": "https://images.unsplash.com/photo-1612723203798-321285cf5e3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8aGFwcHklMjBjdXN0b21lciUyMHNhdmluZ3N8ZW58MHx8fHwxNzY1MDEzOTAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "happy customer savings"
+    },
+    {
+      "id": "mumbai-gallery-1",
+      "description": "A team of engineers in safety gear inspecting a large commercial solar installation.",
+      "imageUrl": "https://images.unsplash.com/photo-1542336391-ae2936d8efe4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzb2xhciUyMGVuZ2luZWVycyUyMGluc3BlY3Rpb258ZW58MHx8fHwxNzY1MDEzOTAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "solar engineers inspection"
+    },
+    {
+      "id": "mumbai-gallery-2",
+      "description": "A graph on a screen showing the energy savings from a commercial solar project.",
+      "imageUrl": "https://images.unsplash.com/photo-1685660477695-73713eaf512a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxlbmVyZ3klMjBzYXZpbmdzJTIwY2hhcnR8ZW58MHx8fHwxNzY1MDEzOTAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "energy savings chart"
+    },
+    {
+      "id": "lonavala-gallery-1",
+      "description": "A close-up of the sleek, all-black solar panels on a modern roof.",
+      "imageUrl": "https://images.unsplash.com/photo-1592652284083-a6ea84e6cef3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxibGFjayUyMHNvbGFyJTIwcGFuZWxzfGVufDB8fHx8MTc2NTAxMzkwMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "black solar panels"
+    },
+    {
+      "id": "lonavala-gallery-2",
+      "description": "An electric car charging in the driveway of a solar-powered home.",
+      "imageUrl": "https://images.unsplash.com/photo-1694729101068-a2c621f877b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxlbGVjdHJpYyUyMGNhciUyMHNvbGFyfGVufDB8fHx8MTc2NTAxMzkwMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "electric car solar"
+    },
+    {
+      "id": "nashik-gallery-1",
+      "description": "Rows of ground-mounted solar panels in a field, with green crops in the background.",
+      "imageUrl": "https://images.unsplash.com/photo-1616258815309-53866115551b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxncm91bmQlMjBtb3VudCUyMHNvbGFyfGVufDB8fHx8MTc2NTAxMzkwMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ground mount solar"
+    },
+    {
+      "id": "nashik-gallery-2",
+      "description": "A water pump powered by solar energy irrigating a field.",
+      "imageUrl": "https://images.unsplash.com/photo-1709195325979-efb62c1f01a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c29sYXIlMjB3YXRlciUyMHB1bXB8ZW58MHx8fHwxNzY1MDEzOTAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "solar water pump"
     },
     {
       "id": "blog-1",
