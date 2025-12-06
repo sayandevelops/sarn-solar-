@@ -56,7 +56,7 @@ export function HeroSlider() {
                 <p className="mt-4 max-w-2xl text-lg md:text-xl drop-shadow-lg">
                   {banner.subtitle}
                 </p>
-                <Button asChild size="lg" className="mt-8 bg-accent text-accent-foreground hover:bg-accent/90 shadow-lg">
+                <Button asChild size="lg" className="mt-8 bg-accent text-accent-foreground hover:bg-accent/90 shadow-lg drop-shadow-lg">
                   <Link href={banner.buttonLink}>
                     {banner.buttonText} <ArrowRight className="ml-2 h-5 w-5" />
                   </Link>
@@ -66,8 +66,8 @@ export function HeroSlider() {
           </CarouselItem>
         ))}
       </CarouselContent>
-      <CarouselPrevious className="absolute left-4 top-1/2 -translate-y-1/2 z-10 text-white" />
-      <CarouselNext className="absolute right-4 top-1/2 -translate-y-1/2 z-10 text-white" />
+      <CarouselPrevious className="absolute left-4 top-1/2 -translate-y-1/2 z-10 text-white bg-black/20 hover:bg-black/50 border-none" />
+      <CarouselNext className="absolute right-4 top-1/2 -translate-y-1/2 z-10 text-white bg-black/20 hover:bg-black/50 border-none" />
     </Carousel>
   );
 }
