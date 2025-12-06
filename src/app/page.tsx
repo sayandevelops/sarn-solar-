@@ -1,3 +1,208 @@
+import Image from 'next/image';
+import Link from 'next/link';
+import {
+  ArrowRight,
+  Award,
+  Sun,
+  Wrench,
+  ClipboardList,
+  ShieldCheck,
+  Users,
+} from 'lucide-react';
+import { Button } from '@/components/ui/button';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from '@/components/ui/carousel';
+import { Badge } from '@/components/ui/badge';
+import { PlaceHolderImages } from '@/lib/placeholder-images';
+import { portfolio, services, testimonials } from '@/lib/placeholder-data';
+import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
+
 export default function Home() {
-  return <></>;
+  const heroImage = PlaceHolderImages.find((img) => img.id === 'hero-home');
+  const portfolioImages = portfolio.map(p => PlaceHolderImages.find(img => img.id === p.imageId));
+
+  return (
+    <div className="flex flex-col">
+      {/* Hero Section */}
+      <section className="relative h-[60vh] min-h-[400px] w-full">
+        {heroImage && (
+          <Image
+            src={heroImage.imageUrl}
+            alt={heroImage.description}
+            data-ai-hint={heroImage.imageHint}
+            fill
+            className="object-cover"
+            priority
+          />
+        )}
+        <div className="absolute inset-0 bg-primary/40" />
+        <div className="relative z-10 flex h-full flex-col items-center justify-center text-center text-primary-foreground p-4">
+          <h1 className="font-headline text-4xl md:text-6xl font-bold drop-shadow-md">
+            Power Your Future with Sarn Solar
+          </h1>
+          <p className="mt-4 max-w-2xl text-lg md:text-xl drop-shadow">
+            Leading the charge in clean energy with reliable and affordable solar solutions for your home and business.
+          </p>
+          <Button asChild size="lg" className="mt-8 bg-accent text-accent-foreground hover:bg-accent/90">
+            <Link href="/estimator">
+              Get a Free Estimate <ArrowRight className="ml-2 h-5 w-5" />
+            </Link>
+          </Button>
+        </div>
+      </section>
+
+      {/* Services Section */}
+      <section id="services" className="py-16 lg:py-24 bg-card">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="font-headline text-3xl md:text-4xl font-bold">Our Services</h2>
+            <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
+              We provide comprehensive solar solutions tailored to your needs.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {services.map((service) => (
+              <Card key={service.id} className="text-center transform hover:scale-105 transition-transform duration-300 shadow-lg">
+                <CardHeader>
+                  <div className="mx-auto bg-primary text-primary-foreground rounded-full h-16 w-16 flex items-center justify-center">
+                    {service.id === 'installation' && <Sun className="h-8 w-8" />}
+                    {service.id === 'maintenance' && <Wrench className="h-8 w-8" />}
+                    {service.id === 'consultation' && <ClipboardList className="h-8 w-8" />}
+                  </div>
+                  <CardTitle className="mt-4 font-headline">{service.title}</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground">{service.description}</p>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+      
+      {/* Why Choose Us Section */}
+      <section className="py-16 lg:py-24">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="font-headline text-3xl md:text-4xl font-bold">Why Choose Sarn Solar?</h2>
+            <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
+              Our commitment to quality and customer satisfaction sets us apart.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+            <div className="p-6">
+                <ShieldCheck className="h-12 w-12 mx-auto text-accent mb-4"/>
+                <h3 className="text-xl font-bold font-headline">Reliability</h3>
+                <p className="text-muted-foreground mt-2">Dependable systems and a 25-year warranty for your peace of mind.</p>
+            </div>
+            <div className="p-6">
+                <Award className="h-12 w-12 mx-auto text-accent mb-4"/>
+                <h3 className="text-xl font-bold font-headline">Expertise</h3>
+                <p className="text-muted-foreground mt-2">Our certified professionals ensure a seamless and efficient installation process.</p>
+            </div>
+            <div className="p-6">
+                <Users className="h-12 w-12 mx-auto text-accent mb-4"/>
+                <h3 className="text-xl font-bold font-headline">Customer Focus</h3>
+                <p className="text-muted-foreground mt-2">We prioritize your needs, offering personalized support every step of the way.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Project Portfolio Preview */}
+      <section id="portfolio" className="py-16 lg:py-24 bg-card">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="font-headline text-3xl md:text-4xl font-bold">Our Projects</h2>
+            <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
+              See the quality of our work and the impact we've made.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+            {portfolio.slice(0, 2).map((project, index) => {
+              const image = portfolioImages[index];
+              return (
+              <Card key={project.id} className="overflow-hidden group">
+                <CardContent className="p-0">
+                  <div className="relative h-64 w-full">
+                    {image && <Image src={image.imageUrl} alt={image.description} data-ai-hint={image.imageHint} fill className="object-cover" />}
+                  </div>
+                  <div className="p-6">
+                    <h3 className="text-xl font-bold font-headline">{project.title}</h3>
+                    <p className="mt-2 text-muted-foreground">{project.description}</p>
+                  </div>
+                </CardContent>
+              </Card>
+            )})}
+          </div>
+          <div className="text-center mt-12">
+            <Button asChild size="lg" variant="outline">
+              <Link href="/portfolio">
+                View All Projects <ArrowRight className="ml-2 h-5 w-5" />
+              </Link>
+            </Button>
+          </div>
+        </div>
+      </section>
+
+      {/* Testimonials Section */}
+      <section className="py-16 lg:py-24">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="font-headline text-3xl md:text-4xl font-bold">What Our Clients Say</h2>
+          </div>
+          <Carousel
+            opts={{
+              align: 'start',
+              loop: true,
+            }}
+            className="w-full max-w-4xl mx-auto"
+          >
+            <CarouselContent>
+              {testimonials.map((testimonial, index) => (
+                <CarouselItem key={index} className="md:basis-1/2">
+                  <div className="p-1">
+                    <Card>
+                      <CardContent className="flex flex-col items-center text-center aspect-square justify-center p-6">
+                        <Avatar className="w-20 h-20 mb-4 border-2 border-primary">
+                          <AvatarImage src={`https://i.pravatar.cc/150?u=${testimonial.name}`} alt={testimonial.name} />
+                          <AvatarFallback>{testimonial.name.charAt(0)}</AvatarFallback>
+                        </Avatar>
+                        <p className="text-muted-foreground italic">&quot;{testimonial.quote}&quot;</p>
+                        <h4 className="font-bold mt-4">{testimonial.name}</h4>
+                        <p className="text-sm text-muted-foreground">{testimonial.location}</p>
+                      </CardContent>
+                    </Card>
+                  </div>
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            <CarouselPrevious />
+            <CarouselNext />
+          </Carousel>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="py-16 lg:py-24 bg-primary text-primary-foreground">
+        <div className="container mx-auto px-4 text-center">
+          <h2 className="font-headline text-3xl md:text-4xl font-bold">Ready to Go Solar?</h2>
+          <p className="mt-4 max-w-2xl mx-auto text-lg">
+            Join the solar revolution today. Get in touch for a personalized quote and find out how much you can save.
+          </p>
+          <Button asChild size="lg" className="mt-8 bg-accent text-accent-foreground hover:bg-accent/90">
+            <Link href="/contact">
+              Request a Quote <ArrowRight className="ml-2 h-5 w-5" />
+            </Link>
+          </Button>
+        </div>
+      </section>
+    </div>
+  );
 }

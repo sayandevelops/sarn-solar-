@@ -1,3 +1,52 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-home",
+      "description": "A beautiful modern house with solar panels on the roof under a clear blue sky.",
+      "imageUrl": "https://images.unsplash.com/photo-1668015642564-1d68397e77a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzb2xhciUyMHBhbmVscyUyMGhvdXNlfGVufDB8fHx8MTc2NDkxODg3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "solar panels house"
+    },
+    {
+      "id": "project-1",
+      "description": "A close-up shot of solar panels being installed on a suburban home.",
+      "imageUrl": "https://images.unsplash.com/photo-1660330589243-4c640d878052?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzb2xhciUyMGluc3RhbGxhdGlvbnxlbnwwfHx8fDE3NjUwMDc3Mjh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "solar installation"
+    },
+    {
+      "id": "project-2",
+      "description": "A wide-angle view of a commercial building with a large solar panel array on its roof.",
+      "imageUrl": "https://images.unsplash.com/photo-1711041018462-550f313cb789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjb21tZXJjaWFsJTIwc29sYXJ8ZW58MHx8fHwxNzY1MDAyMzE2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "commercial solar"
+    },
+    {
+      "id": "project-3",
+      "description": "A family smiling in front of their home, which has newly installed solar panels.",
+      "imageUrl": "https://images.unsplash.com/photo-1561904794-3d0985ee7ae7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxmYW1pbHklMjBzb2xhcnxlbnwwfHx8fDE3NjQ5OTYxNjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "family solar"
+    },
+    {
+      "id": "project-4",
+      "description": "Drone shot of a rural farm with solar panels powering its operations.",
+      "imageUrl": "https://images.unsplash.com/photo-1502637098811-fa9526d2b659?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzb2xhciUyMGZhcm18ZW58MHx8fHwxNzY0OTE4ODc2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "solar farm"
+    },
+    {
+      "id": "blog-1",
+      "description": "An infographic explaining the financial benefits of solar energy.",
+      "imageUrl": "https://images.unsplash.com/photo-1699794043417-afcdfd0a4493?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzb2xhciUyMHNhdmluZ3N8ZW58MHx8fHwxNzY1MDA3NzI4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "solar savings"
+    },
+    {
+      "id": "blog-2",
+      "description": "A technician cleaning solar panels on a roof.",
+      "imageUrl": "https://images.unsplash.com/photo-1751948694045-4b824193b992?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzb2xhciUyMG1haW50ZW5hbmNlfGVufDB8fHx8MTc2NTAwNzcyOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "solar maintenance"
+    },
+    {
+      "id": "blog-3",
+      "description": "A diagram showing how solar energy is converted into electricity for a home.",
+      "imageUrl": "https://images.unsplash.com/photo-1692611825915-0f3c9bdb257d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzb2xhciUyMHRlY2hub2xvZ3l8ZW58MHx8fHwxNzY1MDA3NzI4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "solar technology"
+    }
+  ]
 }
