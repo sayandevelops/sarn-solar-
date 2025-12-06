@@ -3,6 +3,7 @@ import './globals.css';
 import { Header } from '@/components/common/header';
 import { Footer } from '@/components/common/footer';
 import { Toaster } from '@/components/ui/toaster';
+import { WhatsAppButton } from '@/components/common/whatsapp-button';
 
 export const metadata: Metadata = {
   title: {
@@ -31,6 +32,7 @@ export default function RootLayout({
           <Footer />
         </div>
         <Toaster />
+        <WhatsAppButton />
       </body>
     </html>
   );
