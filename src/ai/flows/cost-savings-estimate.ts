@@ -14,16 +14,16 @@ import {z} from 'genkit';
 const CostSavingsEstimateInputSchema = z.object({
   averageElectricityBill: z
     .number()
-    .describe('Your average monthly electricity bill in USD.'),
+    .describe('Your average monthly electricity bill in INR.'),
   roofSize: z.number().describe('The approximate size of your roof in square feet.'),
-  location: z.string().describe('Your city and state.'),
+  location: z.string().describe('Your city and state in India.'),
 });
 export type CostSavingsEstimateInput = z.infer<typeof CostSavingsEstimateInputSchema>;
 
 const CostSavingsEstimateOutputSchema = z.object({
   estimatedSavingsPerYear: z
     .number()
-    .describe('Estimated cost savings per year in USD.'),
+    .describe('Estimated cost savings per year in INR.'),
   environmentalImpact: z
     .string()
     .describe('Description of the positive environmental impact.'),
@@ -40,24 +40,24 @@ const prompt = ai.definePrompt({
   name: 'costSavingsEstimatePrompt',
   input: {schema: CostSavingsEstimateInputSchema},
   output: {schema: CostSavingsEstimateOutputSchema},
-  prompt: `You are a solar energy consultant. A user will provide their average monthly electricity bill, roof size, and location. 
+  prompt: `You are a solar energy consultant for a company in India. A user will provide their average monthly electricity bill in INR, roof size, and location within India. 
 You will estimate the cost savings and environmental impact of installing Sarn Solar's solutions.
 
-Consider factors such as solar irradiance based on location, typical energy consumption, and current solar panel efficiencies.
+Consider factors such as solar irradiance based on location in India, typical energy consumption, and current solar panel efficiencies.
 
-Calculate the estimated cost savings per year, describe the positive environmental impact, recommend a solar system size, and estimate the payback period.
+Calculate the estimated cost savings per year in INR, describe the positive environmental impact, recommend a solar system size, and estimate the payback period.
 
-Average Monthly Electricity Bill: ${'{{averageElectricityBill}}'} USD
-Roof Size: ${'{{roofSize}}'} square feet
-Location: ${'{{location}}'}
+Average Monthly Electricity Bill: ₹{{averageElectricityBill}}
+Roof Size: {{roofSize}} square feet
+Location: {{location}}
 
-Ensure the output is accurate and tailored to the user's specific circumstances.
+Ensure the output is accurate and tailored to the user's specific circumstances in India.
 
 Here's the estimate:
-${'{{output.estimatedSavingsPerYear}}'} USD saved per year.
-${'{{output.environmentalImpact}}'}
-Recommended system size: ${'{{output.systemSize}}'} kW.
-Payback period: ${'{{output.paybackPeriod}}'} years.
+₹{{output.estimatedSavingsPerYear}} saved per year.
+{{output.environmentalImpact}}
+Recommended system size: {{output.systemSize}} kW.
+Payback period: {{output.paybackPeriod}} years.
 `,
 });
 

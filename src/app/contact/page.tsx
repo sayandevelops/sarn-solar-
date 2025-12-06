@@ -32,7 +32,7 @@ export default function ContactPage() {
               </div>
               <div>
                 <h3 className="font-semibold text-lg">Our Office</h3>
-                <p className="text-muted-foreground">123 Solar Way, Sunville, USA</p>
+                <p className="text-muted-foreground">123 Solar Marg, Surya Nagar, Mumbai, India</p>
               </div>
             </div>
             <div className="flex items-start gap-4">
@@ -41,7 +41,7 @@ export default function ContactPage() {
               </div>
               <div>
                 <h3 className="font-semibold text-lg">Email Us</h3>
-                <p className="text-muted-foreground">info@sarnsolar.com</p>
+                <p className="text-muted-foreground">info@sarnsolar.in</p>
               </div>
             </div>
             <div className="flex items-start gap-4">
@@ -50,7 +50,7 @@ export default function ContactPage() {
               </div>
               <div>
                 <h3 className="font-semibold text-lg">Call Us</h3>
-                <p className="text-muted-foreground">(123) 456-7890</p>
+                <p className="text-muted-foreground">+91 22 4567 8901</p>
               </div>
             </div>
           </div>

@@ -1,6 +1,9 @@
 import { Metadata } from 'next';
-import { DollarSign } from 'lucide-react';
 import EstimatorForm from './estimator-form';
+
+function RupeeIcon() {
+  return <span className="h-10 w-10 font-bold text-2xl">₹</span>;
+}
 
 export const metadata: Metadata = {
   title: 'Cost Savings Estimator',
@@ -14,7 +17,7 @@ export default function EstimatorPage() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <div className="inline-block bg-accent text-accent-foreground rounded-full p-4 mb-4">
-              <DollarSign className="h-10 w-10" />
+              <RupeeIcon />
             </div>
             <h1 className="font-headline text-4xl md:text-5xl font-bold">Cost Savings Estimator</h1>
             <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">

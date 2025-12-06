@@ -26,16 +26,20 @@ import {
   FormMessage,
 } from '@/components/ui/form';
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
-import { Loader2, AlertCircle, Leaf, BarChart, Zap, DollarSign } from 'lucide-react';
+import { Loader2, AlertCircle, Leaf, BarChart, Zap } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 
 const formSchema = z.object({
   averageElectricityBill: z.coerce.number().min(1, 'Please enter a valid bill amount.'),
   roofSize: z.coerce.number().min(100, 'Please enter a roof size of at least 100 sq ft.'),
-  location: z.string().min(2, 'Please enter a valid location (e.g., "City, State").'),
+  location: z.string().min(2, 'Please enter a valid location (e.g., "Mumbai, Maharashtra").'),
 });
 
 type FormValues = z.infer<typeof formSchema>;
+
+function Rupee() {
+  return <span className="text-3xl font-bold font-headline text-primary">₹</span>;
+}
 
 export default function EstimatorForm() {
   const [isLoading, setIsLoading] = useState(false);
@@ -46,8 +50,8 @@ export default function EstimatorForm() {
   const form = useForm<FormValues>({
     resolver: zodResolver(formSchema),
     defaultValues: {
-      averageElectricityBill: '' as any,
-      roofSize: '' as any,
+      averageElectricityBill: '',
+      roofSize: '',
       location: '',
     },
   });
@@ -88,9 +92,9 @@ export default function EstimatorForm() {
                 name="averageElectricityBill"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel>Average Monthly Electricity Bill ($)</FormLabel>
+                    <FormLabel>Average Monthly Electricity Bill (₹)</FormLabel>
                     <FormControl>
-                      <Input type="number" placeholder="e.g., 150" {...field} />
+                      <Input type="number" placeholder="e.g., 2500" {...field} />
                     </FormControl>
                     <FormMessage />
                   </FormItem>
@@ -116,7 +120,7 @@ export default function EstimatorForm() {
                   <FormItem>
                     <FormLabel>City & State</FormLabel>
                     <FormControl>
-                      <Input placeholder="e.g., San Francisco, CA" {...field} />
+                      <Input placeholder="e.g., Mumbai, Maharashtra" {...field} />
                     </FormControl>
                     <FormMessage />
                   </FormItem>
@@ -155,10 +159,12 @@ export default function EstimatorForm() {
                 </CardHeader>
                 <CardContent className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
                     <div className="flex flex-col items-center p-4 bg-secondary rounded-lg">
-                        <DollarSign className="h-10 w-10 text-accent mb-2"/>
+                        <div className="h-10 w-10 text-accent mb-2 flex items-center justify-center">
+                          <Rupee />
+                        </div>
                         <h3 className="text-muted-foreground text-sm font-bold uppercase">Annual Savings</h3>
                         <p className="text-3xl font-bold font-headline text-primary">
-                            ${result.estimatedSavingsPerYear.toLocaleString()}
+                            ₹{result.estimatedSavingsPerYear.toLocaleString('en-IN')}
                         </p>
                     </div>
                     <div className="flex flex-col items-center p-4 bg-secondary rounded-lg">

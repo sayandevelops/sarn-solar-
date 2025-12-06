@@ -22,16 +22,16 @@ export const services = [
 export const portfolio = [
   {
     id: '1',
-    title: 'Suburban Home Transformation',
-    location: 'Maple Creek, USA',
+    title: 'Bungalow Transformation',
+    location: 'Koregaon Park, Pune',
     description: 'A 10kW system designed to cover 100% of this family\'s energy needs, featuring sleek, low-profile panels.',
     imageId: 'project-1',
     testimonial: 'The Sarn Solar team was professional and efficient. Our electricity bill has been zero since the installation!',
   },
   {
     id: '2',
-    title: 'Downtown Office Building',
-    location: 'Metro City, USA',
+    title: 'Office Building in BKC',
+    location: 'Bandra Kurla Complex, Mumbai',
     description: 'A 150kW commercial project that significantly reduced the building\'s operating costs and carbon footprint.',
     imageId: 'project-2',
     testimonial: 'A fantastic investment for our business. The process was smooth and the results exceeded our expectations.',
@@ -39,7 +39,7 @@ export const portfolio = [
   {
     id: '3',
     title: 'Modern Farmhouse Goes Green',
-    location: 'Willow Grove, USA',
+    location: 'Lonavala, Maharashtra',
     description: 'This 8kW system complements the home\'s modern aesthetic while providing substantial energy savings.',
     imageId: 'project-3',
     testimonial: 'We love our solar panels! They look great and it feels good to be using clean energy.',
@@ -47,7 +47,7 @@ export const portfolio = [
   {
     id: '4',
     title: 'Agricultural Power Solution',
-    location: 'Stone Valley, USA',
+    location: 'Nashik, Maharashtra',
     description: 'A robust 50kW ground-mounted system to power irrigation and farm equipment, ensuring energy independence.',
     imageId: 'project-4',
     testimonial: 'Sarn Solar understood our unique energy needs as a farm and delivered a perfect solution.',
@@ -56,23 +56,23 @@ export const portfolio = [
 
 export const testimonials = [
   {
-    name: 'Jane D.',
-    location: 'Maple Creek, USA',
+    name: 'Priya S.',
+    location: 'Koregaon Park, Pune',
     quote: 'The Sarn Solar team was professional and efficient. Our electricity bill has been zero since the installation! It\'s been a wonderful experience from start to finish.',
   },
   {
-    name: 'Mark T.',
-    location: 'Metro City, USA',
+    name: 'Vikram T.',
+    location: 'BKC, Mumbai',
     quote: 'A fantastic investment for our business. The process was smooth, and the ROI is even better than we projected. Highly recommend Sarn Solar to any business owner.',
   },
   {
-    name: 'The Johnson Family',
-    location: 'Willow Grove, USA',
+    name: 'The Sharma Family',
+    location: 'Lonavala, Maharashtra',
     quote: 'We love our solar panels! They look great on our new home, and it feels incredible to be using clean energy and saving money every month.',
   },
   {
     name: 'David L.',
-    location: 'Stone Valley, USA',
+    location: 'Nashik, Maharashtra',
     quote: 'Sarn Solar understood our unique energy needs as a farm and delivered a perfect, robust solution. We finally have stable, affordable power.',
   },
 ];
@@ -81,32 +81,32 @@ export const blogPosts = [
   {
     slug: 'the-financial-benefits-of-solar-energy',
     title: 'The Financial Benefits of Going Solar in 2024',
-    author: 'Emily Carter',
+    author: 'Aarav Patel',
     date: '2024-05-15',
     imageId: 'blog-1',
-    excerpt: 'Discover how investing in solar panels can lead to significant savings, increase your property value, and offer attractive tax incentives.',
+    excerpt: 'Discover how investing in solar panels can lead to significant savings, increase your property value, and offer attractive tax incentives in India.',
     content: `
-      <p>Investing in solar energy is more than just an environmentally conscious decision; it's a smart financial move that can pay dividends for years to come. In 2024, the incentives for switching to solar are more compelling than ever.</p>
+      <p>Investing in solar energy is more than just an environmentally conscious decision; it's a smart financial move that can pay dividends for years to come. In 2024, the incentives for switching to solar in India are more compelling than ever.</p>
       <h3 class="font-bold text-lg mt-4 mb-2">Eliminate or Drastically Reduce Electricity Bills</h3>
       <p>This is the most well-known benefit. A properly sized solar panel system can generate enough electricity to meet your entire household's needs, effectively reducing your monthly utility bill to near zero. Imagine what you could do with those savings year after year!</p>
       <h3 class="font-bold text-lg mt-4 mb-2">Increase Your Property Value</h3>
       <p>Studies have consistently shown that homes with solar panel installations sell for more than comparable homes without them. Buyers appreciate the long-term savings and energy independence, making your property more attractive on the market.</p>
-      <h3 class="font-bold text-lg mt-4 mb-2">Take Advantage of Tax Credits and Rebates</h3>
-      <p>Government incentives can significantly reduce the upfront cost of your solar installation. The federal solar tax credit allows you to deduct a percentage of the cost from your federal taxes. Many states and local utilities also offer their own rebates and incentives, further sweetening the deal.</p>
+      <h3 class="font-bold text-lg mt-4 mb-2">Take Advantage of Government Subsidies</h3>
+      <p>Government subsidies can significantly reduce the upfront cost of your solar installation. The national simplified subsidy scheme provides financial assistance for residential rooftop solar. Many states also offer their own additional benefits.</p>
       <p>At Sarn Solar, we can help you navigate these incentives to maximize your return on investment. Contact us today for a free consultation!</p>
     `,
   },
   {
     slug: 'how-to-maintain-your-solar-panels',
     title: 'A Simple Guide to Solar Panel Maintenance',
-    author: 'John Anderson',
+    author: 'Rohan Joshi',
     date: '2024-06-02',
     imageId: 'blog-2',
     excerpt: 'Learn the essential tips for keeping your solar panels clean and efficient, ensuring you get the most out of your system for decades to come.',
     content: `
       <p>Solar panel systems are remarkably durable and require very little maintenance. However, a few simple steps can ensure your system operates at peak efficiency for its entire 25+ year lifespan.</p>
       <h3 class="font-bold text-lg mt-4 mb-2">Regular Cleaning</h3>
-      <p>Over time, dust, pollen, and debris can accumulate on your panels, slightly reducing their energy output. In most areas, regular rainfall is sufficient to keep them clean. However, in drier, dustier climates, an occasional rinse with a garden hose (from the ground, for safety!) can make a difference. For stubborn grime, professional cleaning is recommended.</p>
+      <p>Over time, dust, pollen, and debris can accumulate on your panels, slightly reducing their energy output. In most areas of India, especially during the dry season, this can be significant. An occasional rinse with a garden hose (from the ground, for safety!) can make a difference. For stubborn grime, professional cleaning is recommended, especially before and after the monsoon.</p>
       <h3 class="font-bold text-lg mt-4 mb-2">System Monitoring</h3>
       <p>Modern solar systems come with monitoring software that allows you to track your energy production. It's a good idea to check your system's output periodically. A sudden, significant drop in production could indicate an issue that needs attention.</p>
       <h3 class="font-bold text-lg mt-4 mb-2">Professional Inspections</h3>
@@ -116,7 +116,7 @@ export const blogPosts = [
   {
     slug: 'understanding-solar-technology',
     title: 'How Solar Panels Turn Sunlight into Electricity',
-    author: 'Dr. Sarah Chen',
+    author: 'Dr. Meera Iyer',
     date: '2024-06-20',
     imageId: 'blog-3',
     excerpt: 'A beginner-friendly explanation of photovoltaic technology and how your solar panels power your home.',
