@@ -26,7 +26,7 @@ import {
   FormMessage,
 } from '@/components/ui/form';
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
-import { Loader2, AlertCircle, Leaf, BarChart, Zap } from 'lucide-react';
+import { Loader2, AlertCircle, Leaf, BarChart, Zap, DollarSign } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 
 const formSchema = z.object({
@@ -46,8 +46,8 @@ export default function EstimatorForm() {
   const form = useForm<FormValues>({
     resolver: zodResolver(formSchema),
     defaultValues: {
-      averageElectricityBill: undefined,
-      roofSize: undefined,
+      averageElectricityBill: '' as any,
+      roofSize: '' as any,
       location: '',
     },
   });
