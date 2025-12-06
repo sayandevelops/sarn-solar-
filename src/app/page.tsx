@@ -103,33 +103,29 @@ export default function Home() {
               We are registered under
             </p>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            {certifications.map((cert, index) => {
-              const image = certificationImages[index];
-              return (
-                <div key={cert.id} className="flex items-start gap-4">
-                  <div className="flex-shrink-0">
-                    {image && (
-                      <Image
-                        src={image.imageUrl}
-                        alt={cert.title}
-                        data-ai-hint={image.imageHint}
-                        width={64}
-                        height={64}
-                        className="rounded-md object-contain"
-                      />
-                    )}
+          <div
+            className="relative flex overflow-x-hidden"
+          >
+            <div className="flex animate-scroll group-hover:pause">
+              {[...certificationImages, ...certificationImages].map((image, index) => (
+                image && (
+                  <div key={index} className="mx-8 flex-shrink-0">
+                    <Image
+                      src={image.imageUrl}
+                      alt={image.description}
+                      data-ai-hint={image.imageHint}
+                      width={128}
+                      height={128}
+                      className="object-contain h-24 w-auto"
+                    />
                   </div>
-                  <div>
-                    <h3 className="font-headline text-lg font-bold">{cert.title}</h3>
-                    <p className="text-muted-foreground text-sm">{cert.description}</p>
-                  </div>
-                </div>
-              );
-            })}
+                )
+              ))}
+            </div>
           </div>
         </div>
       </section>
+
 
       {/* Project Portfolio Preview */}
       <section id="portfolio" className="py-16 lg:py-24">

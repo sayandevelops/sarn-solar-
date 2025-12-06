@@ -111,32 +111,32 @@
     {
       "id": "cert-msme",
       "description": "Logo for MSME India.",
-      "imageUrl": "https://images.unsplash.com/photo-1676969048242-0669dcb69762?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxnb3Zlcm5tZW50JTIwbG9nb3xlbnwwfHx8fDE3NjUwMTYwOTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "government logo"
+      "imageUrl": "https://placehold.co/150x80/ffffff/ffffff/png",
+      "imageHint": "placeholder"
     },
     {
       "id": "cert-nsic",
       "description": "Logo for NSIC.",
-      "imageUrl": "https://images.unsplash.com/photo-1676970124919-ea078b50e99a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxnb3Zlcm5tZW50JTIwbG9nb3xlbnwwfHx8fDE3NjUwMTYwOTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "government logo"
+      "imageUrl": "https://placehold.co/150x80/ffffff/ffffff/png",
+      "imageHint": "placeholder"
     },
     {
       "id": "cert-iso",
       "description": "Logo for ISO certification.",
-      "imageUrl": "https://images.unsplash.com/photo-1628927013432-99ae87d89cb7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjZXJ0aWZpY2F0ZSUyMHNlYWx8ZW58MHx8fHwxNzY1MDE2MDk2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "certificate seal"
+      "imageUrl": "https://placehold.co/150x80/ffffff/ffffff/png",
+      "imageHint": "placeholder"
     },
     {
       "id": "cert-startup-india",
       "description": "Logo for Startup India.",
-      "imageUrl": "https://images.unsplash.com/photo-1676969048242-0669dcb69762?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxnb3Zlcm5tZW50JTIwbG9nb3xlbnwwfHx8fDE3NjUwMTYwOTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "government logo"
+      "imageUrl": "https://placehold.co/150x80/ffffff/ffffff/png",
+      "imageHint": "placeholder"
     },
     {
       "id": "cert-gem",
       "description": "Logo for Government e-Marketplace (GeM).",
-      "imageUrl": "https://images.unsplash.com/photo-1676970133022-9c34f5e35df2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxnb3Zlcm5tZW50JTIwbG9nb3xlbnwwfHx8fDE3NjUwMTYwOTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "government logo"
+      "imageUrl": "https://placehold.co/150x80/ffffff/ffffff/png",
+      "imageHint": "placeholder"
     }
   ]
 }
