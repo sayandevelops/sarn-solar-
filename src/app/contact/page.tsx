@@ -4,7 +4,7 @@ import ContactForm from './contact-form';
 
 export const metadata: Metadata = {
   title: 'Contact Us',
-  description: 'Get in touch with Sarn Solar for a free quote or any inquiries. We are here to help you on your journey to clean, renewable energy.',
+  description: 'Get in touch with SARN SOLAR for a free quote or any inquiries. We are here to help you on your journey to clean, renewable energy.',
 };
 
 export default function ContactPage() {

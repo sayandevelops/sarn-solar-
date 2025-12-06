@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Our Services',
-  description: 'Explore the comprehensive solar services offered by Sarn Solar, including expert installation, system maintenance, and personalized energy consultations.',
+  description: 'Explore the comprehensive solar services offered by SARN SOLAR, including expert installation, system maintenance, and personalized energy consultations.',
 };
 
 export default function ServicesPage() {

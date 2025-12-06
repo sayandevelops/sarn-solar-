@@ -26,7 +26,7 @@ export function Header() {
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <Link href="/" className="flex items-center gap-2 font-bold text-lg">
           <Sun className="h-6 w-6 text-primary" />
-          <span className="font-headline">Sarn Solar</span>
+          <span className="font-headline">SARN SOLAR</span>
         </Link>
         <nav className="hidden md:flex items-center gap-6 text-sm font-medium">
           {navLinks.map((link) => (
@@ -60,7 +60,7 @@ export function Header() {
                 <div className="flex items-center justify-between border-b pb-4">
                     <Link href="/" className="flex items-center gap-2 font-bold text-lg" onClick={() => setIsMobileMenuOpen(false)}>
                       <Sun className="h-6 w-6 text-primary" />
-                      <span className="font-headline">Sarn Solar</span>
+                      <span className="font-headline">SARN SOLAR</span>
                     </Link>
                     <SheetTrigger asChild>
                       <Button variant="ghost" size="icon">

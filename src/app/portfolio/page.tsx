@@ -6,7 +6,7 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 export const metadata: Metadata = {
   title: 'Project Portfolio',
-  description: 'Browse a gallery of our completed solar installation projects for residential and commercial clients. See the quality and impact of Sarn Solar\'s work.',
+  description: 'Browse a gallery of our completed solar installation projects for residential and commercial clients. See the quality and impact of SARN SOLAR\'s work.',
 };
 
 export default function PortfolioPage() {

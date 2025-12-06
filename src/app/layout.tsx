@@ -7,10 +7,10 @@ import { WhatsAppButton } from '@/components/common/whatsapp-button';
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | Sarn Solar Solutions',
-    default: 'Sarn Solar Solutions - Power Your Future',
+    template: '%s | SARN SOLAR Solutions',
+    default: 'SARN SOLAR Solutions - Power Your Future',
   },
-  description: 'Sarn Solar offers top-tier solar solutions including installation, maintenance, and consultation. Lower your energy bills and reduce your carbon footprint with our expert services.',
+  description: 'SARN SOLAR offers top-tier solar solutions including installation, maintenance, and consultation. Lower your energy bills and reduce your carbon footprint with our expert services.',
 };
 
 export default function RootLayout({

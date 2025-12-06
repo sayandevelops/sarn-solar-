@@ -9,7 +9,7 @@ import { ArrowRight, Calendar, User } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Blog',
-  description: 'Read the latest news, insights, and educational content about solar energy from the experts at Sarn Solar.',
+  description: 'Read the latest news, insights, and educational content about solar energy from the experts at SARN SOLAR.',
 };
 
 export default function BlogPage() {
@@ -19,7 +19,7 @@ export default function BlogPage() {
     <div className="py-16 lg:py-24">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h1 className="font-headline text-4xl md:text-5xl font-bold">Sarn Solar Blog</h1>
+          <h1 className="font-headline text-4xl md:text-5xl font-bold">SARN SOLAR Blog</h1>
           <p className="mt-4 max-w-3xl mx-auto text-lg text-muted-foreground">
             Stay informed with our latest articles, company news, and insights into the world of solar energy.
           </p>

@@ -41,7 +41,7 @@ const prompt = ai.definePrompt({
   input: {schema: CostSavingsEstimateInputSchema},
   output: {schema: CostSavingsEstimateOutputSchema},
   prompt: `You are a solar energy consultant for a company in India. A user will provide their average monthly electricity bill in INR, roof size, and location within India. 
-You will estimate the cost savings and environmental impact of installing Sarn Solar's solutions.
+You will estimate the cost savings and environmental impact of installing SARN SOLAR's solutions.
 
 Consider factors such as solar irradiance based on location in India, typical energy consumption, and current solar panel efficiencies.
 

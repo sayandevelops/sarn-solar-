@@ -22,39 +22,16 @@ import { Badge } from '@/components/ui/badge';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { portfolio, services, testimonials } from '@/lib/placeholder-data';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
+import { HeroSlider } from '@/components/common/hero-slider';
 
 export default function Home() {
-  const heroImage = PlaceHolderImages.find((img) => img.id === 'hero-home');
   const portfolioImages = portfolio.map(p => PlaceHolderImages.find(img => img.id === p.imageId));
 
   return (
     <div className="flex flex-col">
       {/* Hero Section */}
-      <section className="relative h-[60vh] min-h-[400px] w-full">
-        {heroImage && (
-          <Image
-            src={heroImage.imageUrl}
-            alt={heroImage.description}
-            data-ai-hint={heroImage.imageHint}
-            fill
-            className="object-cover"
-            priority
-          />
-        )}
-        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-black/0" />
-        <div className="relative z-10 flex h-full flex-col items-center justify-center text-center text-primary-foreground p-4">
-          <h1 className="font-headline text-4xl md:text-6xl font-bold drop-shadow-md">
-            Power Your Future with SARN SOLAR
-          </h1>
-          <p className="mt-4 max-w-2xl text-lg md:text-xl drop-shadow">
-            Leading the charge in clean energy with reliable and affordable solar solutions for your home and business.
-          </p>
-          <Button asChild size="lg" className="mt-8 bg-accent text-accent-foreground hover:bg-accent/90">
-            <Link href="/estimator">
-              Get a Free Estimate <ArrowRight className="ml-2 h-5 w-5" />
-            </Link>
-          </Button>
-        </div>
+      <section>
+        <HeroSlider />
       </section>
 
       {/* Services Section */}

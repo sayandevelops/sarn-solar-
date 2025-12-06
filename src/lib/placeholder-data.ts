@@ -50,7 +50,7 @@ export const portfolio = [
     location: 'Nashik, Maharashtra',
     description: 'A robust 50kW ground-mounted system to power irrigation and farm equipment, ensuring energy independence.',
     imageId: 'project-4',
-    testimonial: 'Sarn Solar understood our unique energy needs as a farm and delivered a perfect solution.',
+    testimonial: 'SARN SOLAR understood our unique energy needs as a farm and delivered a perfect solution.',
   },
 ];
 
@@ -58,12 +58,12 @@ export const testimonials = [
   {
     name: 'Priya S.',
     location: 'Koregaon Park, Pune',
-    quote: 'The Sarn Solar team was professional and efficient. Our electricity bill has been zero since the installation! It\'s been a wonderful experience from start to finish.',
+    quote: 'The SARN SOLAR team was professional and efficient. Our electricity bill has been zero since the installation! It\'s been a wonderful experience from start to finish.',
   },
   {
     name: 'Vikram T.',
     location: 'BKC, Mumbai',
-    quote: 'A fantastic investment for our business. The process was smooth, and the ROI is even better than we projected. Highly recommend Sarn Solar to any business owner.',
+    quote: 'A fantastic investment for our business. The process was smooth, and the ROI is even better than we projected. Highly recommend SARN SOLAR to any business owner.',
   },
   {
     name: 'The Sharma Family',
@@ -73,7 +73,7 @@ export const testimonials = [
   {
     name: 'David L.',
     location: 'Nashik, Maharashtra',
-    quote: 'Sarn Solar understood our unique energy needs as a farm and delivered a perfect, robust solution. We finally have stable, affordable power.',
+    quote: 'SARN SOLAR understood our unique energy needs as a farm and delivered a perfect, robust solution. We finally have stable, affordable power.',
   },
 ];
 
@@ -93,7 +93,7 @@ export const blogPosts = [
       <p>Studies have consistently shown that homes with solar panel installations sell for more than comparable homes without them. Buyers appreciate the long-term savings and energy independence, making your property more attractive on the market.</p>
       <h3 class="font-bold text-lg mt-4 mb-2">Take Advantage of Government Subsidies</h3>
       <p>Government subsidies can significantly reduce the upfront cost of your solar installation. The national simplified subsidy scheme provides financial assistance for residential rooftop solar. Many states also offer their own additional benefits.</p>
-      <p>At Sarn Solar, we can help you navigate these incentives to maximize your return on investment. Contact us today for a free consultation!</p>
+      <p>At SARN SOLAR, we can help you navigate these incentives to maximize your return on investment. Contact us today for a free consultation!</p>
     `,
   },
   {
@@ -110,7 +110,7 @@ export const blogPosts = [
       <h3 class="font-bold text-lg mt-4 mb-2">System Monitoring</h3>
       <p>Modern solar systems come with monitoring software that allows you to track your energy production. It's a good idea to check your system's output periodically. A sudden, significant drop in production could indicate an issue that needs attention.</p>
       <h3 class="font-bold text-lg mt-4 mb-2">Professional Inspections</h3>
-      <p>While you can do a lot on your own, having a professional inspect your system every few years is a wise investment. Technicians can check for secure connections, identify any potential issues with wiring or inverters, and ensure everything is in safe, working order. Sarn Solar offers comprehensive maintenance plans for complete peace of mind.</p>
+      <p>While you can do a lot on your own, having a professional inspect your system every few years is a wise investment. Technicians can check for secure connections, identify any potential issues with wiring or inverters, and ensure everything is in safe, working order. SARN SOLAR offers comprehensive maintenance plans for complete peace of mind.</p>
     `,
   },
   {
@@ -132,5 +132,32 @@ export const blogPosts = [
       <p>Your home's appliances run on alternating current (AC), not DC. This is where the inverter comes in. This crucial piece of equipment takes the DC electricity from your solar panels and converts it into usable AC electricity.</p>
       <p>From the inverter, the electricity flows into your home's electrical panel, ready to power your lights, appliances, and everything else. Any excess power can be sent back to the grid, often earning you credits from your utility company!</p>
     `,
+  },
+];
+
+export const heroBanners = [
+  {
+    id: 'hero-1',
+    imageId: 'hero-home',
+    title: 'Power Your Future with SARN SOLAR',
+    subtitle: 'Leading the charge in clean energy with reliable and affordable solar solutions for your home and business.',
+    buttonText: 'Get a Free Estimate',
+    buttonLink: '/estimator',
+  },
+  {
+    id: 'hero-2',
+    imageId: 'hero-rooftop',
+    title: 'Smart Energy for a Brighter Tomorrow',
+    subtitle: 'Reduce your carbon footprint and your energy bills with our cutting-edge solar technology.',
+    buttonText: 'Explore Our Services',
+    buttonLink: '/services',
+  },
+  {
+    id: 'hero-3',
+    imageId: 'hero-panels',
+    title: 'Your Investment in a Greener Planet',
+    subtitle: 'Join the solar revolution and start generating your own clean, renewable energy today.',
+    buttonText: 'Contact Us Now',
+    buttonLink: '/contact',
   },
 ];

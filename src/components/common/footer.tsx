@@ -9,7 +9,7 @@ export function Footer() {
           <div className="md:col-span-1">
             <Link href="/" className="flex items-center gap-2 font-bold text-xl">
               <Sun className="h-7 w-7 text-primary" />
-              <span className="font-headline">Sarn Solar</span>
+              <span className="font-headline">SARN SOLAR</span>
             </Link>
             <p className="mt-4 text-muted-foreground text-sm">
               Powering a brighter, cleaner future for everyone.
@@ -52,7 +52,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-8 border-t pt-8 text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} Sarn Solar Solutions. All Rights Reserved.</p>
+          <p>&copy; {new Date().getFullYear()} SARN SOLAR Solutions. All Rights Reserved.</p>
         </div>
       </div>
     </footer>

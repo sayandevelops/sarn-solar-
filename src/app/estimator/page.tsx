@@ -7,7 +7,7 @@ function RupeeIcon() {
 
 export const metadata: Metadata = {
   title: 'Cost Savings Estimator',
-  description: 'Use our AI-powered tool to estimate your potential cost savings and environmental impact by switching to solar with Sarn Solar.',
+  description: 'Use our AI-powered tool to estimate your potential cost savings and environmental impact by switching to solar with SARN SOLAR.',
 };
 
 export default function EstimatorPage() {
