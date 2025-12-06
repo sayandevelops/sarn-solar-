@@ -41,10 +41,10 @@ export default function Home() {
             priority
           />
         )}
-        <div className="absolute inset-0 bg-primary/40" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-black/0" />
         <div className="relative z-10 flex h-full flex-col items-center justify-center text-center text-primary-foreground p-4">
           <h1 className="font-headline text-4xl md:text-6xl font-bold drop-shadow-md">
-            Power Your Future with Sarn Solar
+            Power Your Future with SARN SOLAR
           </h1>
           <p className="mt-4 max-w-2xl text-lg md:text-xl drop-shadow">
             Leading the charge in clean energy with reliable and affordable solar solutions for your home and business.
@@ -90,7 +90,7 @@ export default function Home() {
       <section className="py-16 lg:py-24">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="font-headline text-3xl md:text-4xl font-bold">Why Choose Sarn Solar?</h2>
+            <h2 className="font-headline text-3xl md:text-4xl font-bold">Why Choose SARN SOLAR?</h2>
             <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
               Our commitment to quality and customer satisfaction sets us apart.
             </p>
