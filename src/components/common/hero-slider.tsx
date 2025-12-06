@@ -50,13 +50,13 @@ export function HeroSlider() {
               )}
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-black/20" />
               <div className="relative z-10 flex h-full flex-col items-center justify-center text-center text-primary-foreground p-4">
-                <h1 className="font-headline text-4xl md:text-6xl font-bold drop-shadow-md">
+                <h1 className="font-headline text-4xl md:text-6xl font-bold drop-shadow-lg">
                   {banner.title}
                 </h1>
-                <p className="mt-4 max-w-2xl text-lg md:text-xl drop-shadow">
+                <p className="mt-4 max-w-2xl text-lg md:text-xl drop-shadow-lg">
                   {banner.subtitle}
                 </p>
-                <Button asChild size="lg" className="mt-8 bg-accent text-accent-foreground hover:bg-accent/90">
+                <Button asChild size="lg" className="mt-8 bg-accent text-accent-foreground hover:bg-accent/90 shadow-lg">
                   <Link href={banner.buttonLink}>
                     {banner.buttonText} <ArrowRight className="ml-2 h-5 w-5" />
                   </Link>
