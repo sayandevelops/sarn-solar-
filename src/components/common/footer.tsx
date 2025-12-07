@@ -14,9 +14,12 @@ export function Footer() {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-1">
-            <Link href="/" className="flex items-center gap-2 font-bold text-xl">
-              <Image src="/sarnsolar.jpeg" alt="SARN SOLAR Logo" width={28} height={28} className="h-7 w-auto" />
-              <span className="font-headline">SARN SOLAR</span>
+            <Link href="/" className="flex items-center gap-3">
+              <Image src="/sarnsolar.jpeg" alt="SARN SOLAR Logo" width={40} height={40} className="h-10 w-auto rounded-md" />
+              <div>
+                <span className="font-headline font-bold text-xl leading-tight">SARN SOLAR</span>
+                <p className="text-xs text-muted-foreground -mt-1">Solution Pvt. Ltd.</p>
+              </div>
             </Link>
             <p className="mt-4 text-muted-foreground text-sm">
               Powering a brighter, cleaner future for everyone.

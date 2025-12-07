@@ -25,9 +25,12 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-card/80 backdrop-blur-lg">
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
-        <Link href="/" className="flex items-center gap-2 font-bold text-lg">
-          <Image src="/sarnsolar.jpeg" alt="SARN SOLAR Logo" width={40} height={40} className="h-8 w-auto" />
-          <span className="font-headline">SARN SOLAR</span>
+        <Link href="/" className="flex items-center gap-3">
+          <Image src="/sarnsolar.jpeg" alt="SARN SOLAR Logo" width={40} height={40} className="h-10 w-auto rounded-md" />
+          <div>
+            <span className="font-headline font-bold text-lg leading-tight">SARN SOLAR</span>
+            <p className="text-xs text-muted-foreground -mt-1">Solution Pvt. Ltd.</p>
+          </div>
         </Link>
         <nav className="hidden md:flex items-center gap-6 text-sm font-medium">
           {navLinks.map((link) => (
@@ -59,9 +62,12 @@ export function Header() {
             <SheetContent side="left" className="w-full max-w-xs bg-card">
               <div className="flex flex-col h-full">
                 <div className="flex items-center justify-between border-b pb-4">
-                    <Link href="/" className="flex items-center gap-2 font-bold text-lg" onClick={() => setIsMobileMenuOpen(false)}>
-                      <Image src="/sarnsolar.jpeg" alt="SARN SOLAR Logo" width={40} height={40} className="h-8 w-auto" />
-                      <span className="font-headline">SARN SOLAR</span>
+                    <Link href="/" className="flex items-center gap-3" onClick={() => setIsMobileMenuOpen(false)}>
+                      <Image src="/sarnsolar.jpeg" alt="SARN SOLAR Logo" width={40} height={40} className="h-10 w-auto rounded-md" />
+                       <div>
+                        <span className="font-headline font-bold text-lg leading-tight">SARN SOLAR</span>
+                        <p className="text-xs text-muted-foreground -mt-1">Solution Pvt. Ltd.</p>
+                      </div>
                     </Link>
                     <SheetTrigger asChild>
                       <Button variant="ghost" size="icon">
