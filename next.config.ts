@@ -28,7 +28,16 @@ const nextConfig: NextConfig = {
         port: '',
         pathname: '/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'popcorninfotech.com',
+        port: '',
+        pathname: '/**',
+      },
     ],
+  },
+  devIndicators: {
+    buildActivity: false,
   },
 };
 
