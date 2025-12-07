@@ -27,7 +27,7 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b bg-card/80 backdrop-blur-lg">
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <Link href="/" className="flex items-center gap-2 font-bold text-lg">
-          <Image src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAARFJREFUeJzt2LENwCAQAEEfGv8/JQxIEBLAAIBvV3/37gEcqQEVAEBAAARAEBABAUAQEAEBRAEQAQEUQEAEAEBABAUAQEAEAEBRAEQCAgAgCAqAgAgAgKiAAAgIAiAAgqgICIACIACAqAgCAgAgCAiAIioAgIAAIACAqAgCAgAgIAgIAgKiAAAgIAiAAgqgICIACIACAqAgCAgAgCAiAIioAgIAAIACAqAgCAgAgIAgIAgKiAAAgIAiAAgqgICIACIACAqAgCAgAgCAiAIioAgIAAIACAqAgCAgAgIAgIAgKiAAAgIAiAAgqgICIACIACAqAgCAgAgCAiAIioAgIAAIACAqAgCAgAgIAgIAgKiAAAgIAiAAgqgICIACIADg/gDrCo4tQJ6w+AAAAABJRU5ErkJggg==" alt="SARN SOLAR Logo" width={40} height={40} className="h-8 w-auto" />
+          <Image src="/sarnsolar.jpeg" alt="SARN SOLAR Logo" width={40} height={40} className="h-8 w-auto" />
           <span className="font-headline">SARN SOLAR</span>
         </Link>
         <nav className="hidden md:flex items-center gap-6 text-sm font-medium">
