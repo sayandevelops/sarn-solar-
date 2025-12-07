@@ -81,7 +81,7 @@
     {
       "id": "nashik-gallery-1",
       "description": "Rows of ground-mounted solar panels in a field, with green crops in the background.",
-      "imageUrl": "https://images.unsplash.com/photo-1616258815309-53866115551b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxncm91bmQlMjBtb3VudCUyMHNvbGFyfGVufDB8fHx8MTc2NTAxMzkwMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1616258815309-53866115551b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxncm91bmQlMjBtb3VudCUyMHNvbGFyfGVufDB8fHx8MTc2NTAxMzkwMHww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "ground mount solar"
     },
     {
@@ -135,8 +135,8 @@
     {
       "id": "cert-gem",
       "description": "Logo for Government e-Marketplace (GeM).",
-      "imageUrl": "https://placehold.co/150x80/ffffff/ffffff/png",
-      "imageHint": "placeholder"
+      "imageUrl": "https://media.licdn.com/dms/image/v2/C5612AQFjCaZVLzKRuA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1605088823110?e=2147483647&v=beta&t=TKbX1TiziC0v32WnNC7EwX_-EXxyNl_76Rh_6_v6ZkM",
+      "imageHint": "GeM logo"
     }
   ]
 }
