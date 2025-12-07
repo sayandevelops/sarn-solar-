@@ -3,13 +3,18 @@ import { Facebook, Linkedin, Youtube } from 'lucide-react';
 import Image from 'next/image';
 
 export function Footer() {
+  const address = "Swapna Neer Apartment. 05, RNC Road, Kolkata-700147";
+  const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`;
+  const email = "contact@sarnsolar.in";
+  const phone = "+91 94326 89034";
+  
   return (
     <footer className="bg-card border-t">
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-1">
             <Link href="/" className="flex items-center gap-2 font-bold text-xl">
-              <Image src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAARFJREFUeJzt2LENwCAQAEEfGv8/JQxIEBLAAIBvV3/37gEcqQEVAEBAAARAEBABAUAQEAEBRAEQAQEUQEAEAEBABAUAQEAEAEBRAEQCAgAgCAqAgAgAgKiAAAgIAiAAgqgICIACIACAqAgCAgAgCAiAIioAgIAAIACAqAgCAgAgIAgIAgKiAAAgIAiAAgqgICIACIACAqAgCAgAgCAiAIioAgIAAIACAqAgCAgAgIAgIAgKiAAAgIAiAAgqgICIACIACAqAgCAgAgCAiAIioAgIAAIACAqAgCAgAgIAgIAgKiAAAgIAiAAgqgICIACIACAqAgCAgAgCAiAIioAgIAAIACAqAgCAgAgIAgIAgKiAAAgIAiAAgqgICIACIADg/gDrCo4tQJ6w+AAAAABJRU5ErkJggg==" alt="SARN SOLAR Logo" width={28} height={28} className="h-7 w-auto" />
+              <Image src="/logo.png" alt="SARN SOLAR Logo" width={28} height={28} className="h-7 w-auto" />
               <span className="font-headline">SARN SOLAR</span>
             </Link>
             <p className="mt-4 text-muted-foreground text-sm">
@@ -46,9 +51,21 @@ export function Footer() {
           <div className="md:col-span-1">
             <h4 className="font-headline font-semibold">Contact Info</h4>
             <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
-              <li>Swapna Neer Apartment. 05, RNC Road, Kolkata-700147</li>
-              <li>+91 94326 89034</li>
-              <li>contact@sarnsolar.in</li>
+              <li>
+                <Link href={mapsUrl} target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+                  {address}
+                </Link>
+              </li>
+              <li>
+                <Link href={`tel:${phone.replace(/\s/g, '')}`} className="hover:text-primary transition-colors">
+                  {phone}
+                </Link>
+              </li>
+              <li>
+                <Link href={`mailto:${email}`} className="hover:text-primary transition-colors">
+                  {email}
+                </Link>
+              </li>
             </ul>
           </div>
         </div>

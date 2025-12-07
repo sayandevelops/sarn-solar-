@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import { Mail, Phone, MapPin } from 'lucide-react';
 import ContactForm from './contact-form';
+import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Contact Us',
@@ -8,6 +9,11 @@ export const metadata: Metadata = {
 };
 
 export default function ContactPage() {
+  const address = "Swapna Neer Apartment. 05, RNC Road, Kolkata-700147";
+  const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`;
+  const email = "contact@sarnsolar.in";
+  const phone = "+91 94326 89034";
+
   return (
     <div className="py-16 lg:py-24 bg-card">
       <div className="container mx-auto px-4">
@@ -32,7 +38,9 @@ export default function ContactPage() {
               </div>
               <div>
                 <h3 className="font-semibold text-lg">Our Office</h3>
-                <p className="text-muted-foreground">Swapna Neer Apartment. 05, RNC Road, Kolkata-700147</p>
+                <Link href={mapsUrl} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+                  {address}
+                </Link>
               </div>
             </div>
             <div className="flex items-start gap-4">
@@ -41,7 +49,9 @@ export default function ContactPage() {
               </div>
               <div>
                 <h3 className="font-semibold text-lg">Email Us</h3>
-                <p className="text-muted-foreground">contact@sarnsolar.in</p>
+                <Link href={`mailto:${email}`} className="text-muted-foreground hover:text-primary transition-colors">
+                  {email}
+                </Link>
               </div>
             </div>
             <div className="flex items-start gap-4">
@@ -50,7 +60,9 @@ export default function ContactPage() {
               </div>
               <div>
                 <h3 className="font-semibold text-lg">Call Us</h3>
-                <p className="text-muted-foreground">+91 94326 89034</p>
+                <Link href={`tel:${phone.replace(/\s/g, '')}`} className="text-muted-foreground hover:text-primary transition-colors">
+                  {phone}
+                </Link>
               </div>
             </div>
           </div>
