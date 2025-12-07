@@ -51,31 +51,31 @@
     {
       "id": "pune-gallery-2",
       "description": "A homeowner smiling while looking at their low electricity bill on a tablet.",
-      "imageUrl": "https://images.unsplash.com/photo-1612723203798-321285cf5e3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8aGFwcHklMjBjdXN0b21lciUyMHNhdmluZ3N8ZW58MHx8fHwxNzY1MDEzOTAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1612723203798-321285cf5e3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8aGFwcHklMjBjdXN0b21lciUyMHNhdmluZ3N8ZW58MHx8fHwxNzY1MDEzOTAwfDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "happy customer savings"
     },
     {
       "id": "mumbai-gallery-1",
       "description": "A team of engineers in safety gear inspecting a large commercial solar installation.",
-      "imageUrl": "https://images.unsplash.com/photo-1542336391-ae2936d8efe4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzb2xhciUyMGVuZ2luZWVycyUyMGluc3BlY3Rpb258ZW58MHx8fHwxNzY1MDEzOTAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1542336391-ae2936d8efe4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzb2xhciUyMGVuZ2luZWVycyUyMGluc3BlY3Rpb258ZW58MHx8fHwxNzY1MDEzOTAwfDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "solar engineers inspection"
     },
     {
       "id": "mumbai-gallery-2",
       "description": "A graph on a screen showing the energy savings from a commercial solar project.",
-      "imageUrl": "https://images.unsplash.com/photo-1685660477695-73713eaf512a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxlbmVyZ3klMjBzYXZpbmdzJTIwY2hhcnR8ZW58MHx8fHwxNzY1MDEzOTAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1685660477695-73713eaf512a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxlbmVyZ3klMjBzYXZpbmdzJTIwY2hhcnR8ZW58MHx8fHwxNzY1MDEzOTAwfDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "energy savings chart"
     },
     {
       "id": "lonavala-gallery-1",
       "description": "A close-up of the sleek, all-black solar panels on a modern roof.",
-      "imageUrl": "https://images.unsplash.com/photo-1592652284083-a6ea84e6cef3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxibGFjayUyMHNvbGFyJTIwcGFuZWxzfGVufDB8fHx8MTc2NTAxMzkwMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1592652284083-a6ea84e6cef3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxibGFjayUyMHNvbGFyJTIwcGFuZWxzfGVufDB8fHx8MTc2NTAxMzkwMHww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "black solar panels"
     },
     {
       "id": "lonavala-gallery-2",
       "description": "An electric car charging in the driveway of a solar-powered home.",
-      "imageUrl": "https://images.unsplash.com/photo-1694729101068-a2c621f877b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxlbGVjdHJpYyUyMGNhciUyMHNvbGFyfGVufDB8fHx8MTc2NTAxMzkwMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1694729101068-a2c621f877b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxlbGVjdHJpYyUyMGNhciUyMHNvbGFyfGVufDB8fHx8MTc2NTAxMzkwMHww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "electric car solar"
     },
     {
@@ -123,8 +123,8 @@
     {
       "id": "cert-iso",
       "description": "Logo for ISO certification.",
-      "imageUrl": "",
-      "imageHint": "placeholder"
+      "imageUrl": "https://i.pinimg.com/736x/4c/9b/4d/4c9b4d020a7d1767a9d02562874343db.jpg",
+      "imageHint": "ISO logo"
     },
     {
       "id": "cert-startup-india",
