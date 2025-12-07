@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import { Sun, Facebook, Linkedin, Youtube } from 'lucide-react';
+import { Facebook, Linkedin, Youtube } from 'lucide-react';
+import Image from 'next/image';
 
 export function Footer() {
   return (
@@ -8,7 +9,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-1">
             <Link href="/" className="flex items-center gap-2 font-bold text-xl">
-              <Sun className="h-7 w-7 text-primary" />
+              <Image src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAARFJREFUeJzt2LENwCAQAEEfGv8/JQxIEBLAAIBvV3/37gEcqQEVAEBAAARAEBABAUAQEAEBRAEQAQEUQEAEAEBABAUAQEAEAEBRAEQCAgAgCAqAgAgAgKiAAAgIAiAAgqgICIACIACAqAgCAgAgCAiAIioAgIAAIACAqAgCAgAgIAgIAgKiAAAgIAiAAgqgICIACIACAqAgCAgAgCAiAIioAgIAAIACAqAgCAgAgIAgIAgKiAAAgIAiAAgqgICIACIACAqAgCAgAgCAiAIioAgIAAIACAqAgCAgAgIAgIAgKiAAAgIAiAAgqgICIACIACAqAgCAgAgCAiAIioAgIAAIACAqAgCAgAgIAgIAgKiAAAgIAiAAgqgICIACIADg/gDrCo4tQJ6w+AAAAABJRU5ErkJggg==" alt="SARN SOLAR Logo" width={28} height={28} className="h-7 w-auto" />
               <span className="font-headline">SARN SOLAR</span>
             </Link>
             <p className="mt-4 text-muted-foreground text-sm">
