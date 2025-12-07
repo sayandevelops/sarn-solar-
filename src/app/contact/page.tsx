@@ -1,3 +1,4 @@
+
 import { Metadata } from 'next';
 import { Mail, Phone, MapPin } from 'lucide-react';
 import ContactForm from './contact-form';
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
 
 export default function ContactPage() {
   const address = "Swapna Neer Apartment. 05, RNC Road, Kolkata-700147";
-  const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`;
+  const mapsUrl = "https://maps.app.goo.gl/FzW8RMMktxNfbmQV8";
   const email = "contact@sarnsolar.in";
   const phone = "+91 94326 89034";
 
