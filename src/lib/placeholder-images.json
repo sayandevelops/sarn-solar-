@@ -3,13 +3,13 @@
     {
       "id": "hero-home",
       "description": "A beautiful modern house with solar panels on the roof under a clear blue sky.",
-      "imageUrl": "https://images.unsplash.com/photo-1629251863555-8d1a6d717088?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzb2xhciUyMHJvb2Z0b3B8ZW58MHx8fHwxNzY1MTIwNDIyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1623005399550-57b86a3539a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzb2xhciUyMHBhbmVscyUyMGhvdXNlfGVufDB8fHx8MTc2NTA4OTgwNHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "solar panels house"
     },
     {
       "id": "hero-rooftop",
       "description": "A low-angle shot of a residential rooftop covered in solar panels against a setting sun.",
-      "imageUrl": "https://images.unsplash.com/photo-1546522365-0b48b64b1a8f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzb2xhciUyMHBhbmVsJTIwY2xvc2V1cHxlbnwwfHx8fDE3NjUxMjA0MjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1635424709870-cdc6e64f0e20?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzb2xhciUyMHJvb2Z0b3B8ZW58MHx8fHwxNzY1MTAxNjczfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "solar rooftop"
     },
     {
@@ -21,7 +21,7 @@
     {
       "id": "project-1",
       "description": "A close-up shot of solar panels being installed on a suburban home.",
-      "imageUrl": "https://images.unsplash.com/photo-1660330589243-4c640d8778052?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzb2xhciUyMGluc3RhbGxhdGlvbnxlbnwwfHx8fDE3NjUwMDc3Mjh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1668097613572-40b7c11c8727?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzb2xhciUyMGluc3RhbGxhdGlvbnxlbnwwfHx8fDE3NjUxMDE2NzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "solar installation"
     },
     {
@@ -57,7 +57,7 @@
     {
       "id": "mumbai-gallery-1",
       "description": "A team of engineers in safety gear inspecting a large commercial solar installation.",
-      "imageUrl": "https://images.unsplash.com/photo-1542336391-ae2936d8efe4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzb2xhciUyMGVuZ2luZWVycyUyMGluc3BlY3Rpb258ZW58MHx8fHwxNzY1MDEzOTAwfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1542336391-ae2936d8efe4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzb2xhciUyMGVuZ2luZWVycyUyMGluc3BlY3Rpb258ZW58MHx8fHwxNzY1MDEzOTAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "solar engineers inspection"
     },
     {
@@ -123,14 +123,14 @@
     {
       "id": "cert-iso",
       "description": "Logo for ISO certification.",
-      "imageUrl": "https://i.pinimg.com/736x/4c/9b/4d/4c9b4d020a7d1767a9d02562874343db.jpg",
+      "imageUrl": "https://png.pngtree.com/png-clipart/20220911/original/pngtree-iso-14001-certified-company-logo-badge-png-image_8540372.png",
       "imageHint": "ISO logo"
     },
     {
       "id": "cert-startup-india",
       "description": "Logo for Startup India.",
-      "imageUrl": "https://placehold.co/150x80/ffffff/ffffff/png",
-      "imageHint": "placeholder"
+      "imageUrl": "https://placehold.co/150x80/ffffff/000000/png?text=Startup+India",
+      "imageHint": "Startup India logo"
     },
     {
       "id": "cert-gem",

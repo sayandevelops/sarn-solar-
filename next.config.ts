@@ -52,13 +52,14 @@ const nextConfig: NextConfig = {
         port: '',
         pathname: '/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'png.pngtree.com',
+        port: '',
+        pathname: '/**',
+      },
     ],
-  },
-  devIndicators: {
-    buildActivity: false,
   },
 };
 
 export default nextConfig;
-
-    
