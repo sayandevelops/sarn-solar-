@@ -34,6 +34,12 @@ const nextConfig: NextConfig = {
         port: '',
         pathname: '/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'trifed.tribal.gov.in',
+        port: '',
+        pathname: '/**',
+      },
     ],
   },
   devIndicators: {
@@ -42,3 +48,5 @@ const nextConfig: NextConfig = {
 };
 
 export default nextConfig;
+
+    
