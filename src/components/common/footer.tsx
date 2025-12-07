@@ -15,7 +15,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-1">
             <Link href="/" className="flex items-center gap-2 font-bold text-xl">
-              <Image src="/logo.png" alt="SARN SOLAR Logo" width={28} height={28} className="h-7 w-auto" />
+              <Image src="/sarnsolar.jpeg" alt="SARN SOLAR Logo" width={28} height={28} className="h-7 w-auto" />
               <span className="font-headline">SARN SOLAR</span>
             </Link>
             <p className="mt-4 text-muted-foreground text-sm">
