@@ -9,9 +9,11 @@ import {
   ClipboardList,
   ShieldCheck,
   Users,
+  ShoppingCart,
+  Zap,
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Card, CardContent, CardHeader, CardTitle, CardFooter } from '@/components/ui/card';
 import {
   Carousel,
   CarouselContent,
@@ -21,13 +23,15 @@ import {
 } from '@/components/ui/carousel';
 import { Badge } from '@/components/ui/badge';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
-import { portfolio, services, testimonials, certifications } from '@/lib/placeholder-data';
+import { portfolio, services, testimonials, certifications, shopProducts } from '@/lib/placeholder-data';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { HeroSlider } from '@/components/common/hero-slider';
 
 export default function Home() {
   const portfolioImages = portfolio.map(p => PlaceHolderImages.find(img => img.id === p.coverImageId));
   const certificationImages = certifications.map(c => PlaceHolderImages.find(img => img.id === c.imageId));
+  const topProducts = shopProducts.slice(0, 3);
+  const phoneNumber = '919432689034';
 
   return (
     <div className="flex flex-col">
@@ -180,7 +184,7 @@ export default function Home() {
       </section>
 
       {/* Testimonials Section */}
-      <section className="py-16 lg:py-24">
+      <section className="py-16 lg:py-24 bg-card">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="font-headline text-3xl md:text-4xl font-bold">What Our Clients Say</h2>
@@ -217,6 +221,71 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Top Products Section */}
+      <section id="products" className="py-16 lg:py-24">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="font-headline text-3xl md:text-4xl font-bold">Our Top Products</h2>
+            <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
+              High-performance solar panels for maximum efficiency and reliability.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {topProducts.map((product) => {
+              const image = PlaceHolderImages.find(img => img.id === product.imageId);
+              const whatsappMessage = `Hi, I'm interested in the ${product.name}. Could you please provide more information?`;
+              const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(whatsappMessage)}`;
+              return (
+                <Card key={product.id} className="flex flex-col overflow-hidden shadow-lg transition-transform duration-300 hover:-translate-y-2">
+                  <Link href={`/shop/${product.slug}`} className="relative h-64 w-full block">
+                    {image && (
+                      <Image
+                        src={image.imageUrl}
+                        alt={product.name}
+                        data-ai-hint={image.imageHint}
+                        fill
+                        className="object-cover"
+                      />
+                    )}
+                    <Badge variant="secondary" className="absolute top-4 right-4 flex items-center gap-1">
+                      <Zap className="h-3 w-3" />
+                      {product.power}
+                    </Badge>
+                  </Link>
+                  <CardHeader>
+                    <CardTitle className="font-headline text-xl h-14">
+                      <Link href={`/shop/${product.slug}`} className="hover:text-primary transition-colors">{product.name}</Link>
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent className="flex-grow">
+                    <p className="text-muted-foreground">{product.shortDescription}</p>
+                  </CardContent>
+                  <CardFooter className="flex flex-col sm:flex-row gap-2 justify-between">
+                    <Button asChild>
+                      <Link href={whatsappUrl} target="_blank" rel="noopener noreferrer">
+                        <ShoppingCart className="mr-2 h-4 w-4" /> Buy Now
+                      </Link>
+                    </Button>
+                    <Button asChild variant="outline">
+                      <Link href={`/shop/${product.slug}`}>
+                        More Info <ArrowRight className="ml-2 h-4 w-4" />
+                      </Link>
+                    </Button>
+                  </CardFooter>
+                </Card>
+              );
+            })}
+          </div>
+           <div className="text-center mt-12">
+            <Button asChild size="lg">
+              <Link href="/shop">
+                View All Products <ArrowRight className="ml-2 h-5 w-5" />
+              </Link>
+            </Button>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-16 lg:py-24 bg-primary text-primary-foreground">
         <div className="container mx-auto px-4 text-center">
@@ -234,3 +303,5 @@ export default function Home() {
     </div>
   );
 }
+
+    
