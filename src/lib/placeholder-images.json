@@ -33,31 +33,31 @@
     {
       "id": "project-3",
       "description": "A family smiling in front of their home, which has newly installed solar panels.",
-      "imageUrl": "https://images.unsplash.com/photo-1561904794-3d0985ee7ae7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxmYW1pbHklMjBzb2xhcnxlbnwwfHx8fDE3NjQ5OTYxNjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1561904794-3d0985ee7ae7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxmYW1pbHklMjBzb2xhcnxlbnwwfHx8fDE3NjQ5OTYxNjJ8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "family solar"
     },
     {
       "id": "project-4",
       "description": "Drone shot of a rural farm with solar panels powering its operations.",
-      "imageUrl": "https://images.unsplash.com/photo-1502637098811-fa9526d2b659?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzb2xhciUyMGZhcm18ZW58MHx8fHwxNzY0OTE4ODc2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1502637098811-fa9526d2b659?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzb2xhciUyMGZhcm18ZW58MHx8fHwxNzY0OTE4ODc2fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "solar farm"
     },
     {
       "id": "pune-gallery-1",
       "description": "An inverter and battery storage system neatly installed on the side of a house.",
-      "imageUrl": "https://images.unsplash.com/photo-1739268984311-b478fccf256e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzb2xhciUyMGludmVydGVyJTIwYmF0dGVyeXxlbnwwfHx8fDE3NjQ5MTg4NzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1739268984311-b478fccf256e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzb2xhciUyMGludmVydGVyJTIwYmF0dGVyeXxlbnwwfHx8fDE3NjQ5MTg4NzZ8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "solar inverter battery"
     },
     {
       "id": "pune-gallery-2",
       "description": "A homeowner smiling while looking at their low electricity bill on a tablet.",
-      "imageUrl": "https://images.unsplash.com/photo-1612723203798-321285cf5e3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8aGFwcHklMjBjdXN0b21lciUyMHNhdmluZ3N8ZW58MHx8fHwxNzY1MDEzOTAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1612723203798-321285cf5e3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8aGFwcHklMjBjdXN0b21lciUyMHNhdmluZ3N8ZW58MHx8fHwxNzY1MDEzOTAwfDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "happy customer savings"
     },
     {
       "id": "mumbai-gallery-1",
       "description": "A team of engineers in safety gear inspecting a large commercial solar installation.",
-      "imageUrl": "https://images.unsplash.com/photo-1542336391-ae2936d8efe4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzb2xhciUyMGVuZ2luZWVycyUyMGluc3BlY3Rpb258ZW58MHx8fHwxNzY1MDEzOTAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1542336391-ae2936d8efe4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzb2xhciUyMGVuZ2luZWVycyUyMGluc3BlY3Rpb258ZW58MHx8fHwxNzY1MDEzOTAwfDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "solar engineers inspection"
     },
     {
@@ -69,7 +69,7 @@
     {
       "id": "lonavala-gallery-1",
       "description": "A close-up of the sleek, all-black solar panels on a modern roof.",
-      "imageUrl": "https://images.unsplash.com/photo-1592652284083-a6ea84e6cef3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxibGFjayUyMHNvbGFyJTIwcGFuZWxzfGVufDB8fHx8MTc2NTAxMzkwMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1592652284083-a6ea84e6cef3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxibGFjayUyMHNvbGFyJTIwcGFuZWxzfGVufDB8fHx8MTc2NTAxMzkwMHww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "black solar panels"
     },
     {
@@ -147,7 +147,7 @@
     {
       "id": "product-panel-2",
       "description": "A cost-effective polycrystalline solar panel shown up close.",
-      "imageUrl": "https://images.unsplash.com/photo-1558449028-b53a39d100fc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzb2xhciUyMHBhbmVsfGVufDB8fHx8MTc2NTM4MTIwNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1558449028-b53a39d100fc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzb2xhciUyMHBhbmVsfGVufDB8fHx8MTc2NTM4MTIwNnww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "solar panel"
     },
     {
@@ -159,8 +159,14 @@
     {
       "id": "product-panel-4",
       "description": "A high-power solar panel system suitable for homes and businesses.",
-      "imageUrl": "https://images.unsplash.com/photo-1545239280-106fa5422461?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzb2xhciUyMHBhbmVsJTIwcm9vZnxlbnwwfHx8fDE3NjU0NzExNDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1545239280-106fa5422461?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzb2xhciUyMHBhbmVsJTIwcm9vZnxlbnwwfHx8fDE3NjU0NzExNDd8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "solar panel roof"
+    },
+    {
+      "id": "product-panel-5",
+      "description": "A large on-grid solar system on the roof of a commercial building.",
+      "imageUrl": "https://images.unsplash.com/photo-1624398193852-3c5834835848?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjb21tZXJjaWFsJTIwc29sYXIlMjBzeXN0ZW18ZW58MHx8fHwxNzY1NTU1MzY3fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "commercial solar"
     }
   ]
 }

@@ -286,7 +286,7 @@ export const shopProducts = [
       { key: 'Inverter', value: '1kVA' },
       { key: 'Warranty', value: '5 years inverter, 25 years panel' },
       { key: 'Applications', value: 'Homes, Small businesses, Medical shops, Cyber cafes' },
-      { key: 'Monthly Saving', value: '₹900–₹1,200' },
+      { key: 'Savings', value: '₹900–₹1,200 per month' },
     ]
   },
   {
@@ -309,8 +309,30 @@ export const shopProducts = [
         { key: 'Applications', value: 'Homes, Offices, Coaching centres' },
         { key: 'Savings', value: '₹1,500–₹2,000/month' }
     ]
+  },
+  {
+    id: 'sarn-5kw-on-grid',
+    slug: 'sarn-5kw-on-grid-solar-system',
+    name: 'SARN 5kW On-Grid Solar System (Commercial)',
+    shortDescription: 'Ideal for small businesses and shops with moderate electricity usage.',
+    power: '5kW',
+    type: 'On-Grid System',
+    efficiency: 'N/A',
+    price: 'N/A',
+    imageId: 'product-panel-5',
+    longDescription: "No battery needed, providing maximum bill savings with a 5kW smart THEA inverter.<br/><br/><strong>Highlights:</strong> No battery needed, Maximum bill savings, 5kW smart THEA inverter.<br/><br/><strong>What’s Included:</strong><br/>✓ 330W × 16 Panels<br/>✓ 5kW On-Grid Inverter<br/>✓ Structure<br/>✓ BOS<br/>✓ Installation + Net Metering Support<br/><br/><strong>Load Capacity / Output:</strong><br/>Monthly generation: 550–650 units<br/>Saves: ₹4,000–₹6,000/month",
+    specifications: [
+        { key: 'System Capacity', value: '5kW' },
+        { key: 'Inverter', value: 'THEA' },
+        { key: 'Voltage', value: '230/415V' },
+        { key: 'Panel Warranty', value: '25 yrs' },
+        { key: 'Inverter Warranty', value: '5 yrs' },
+        { key: 'Applications', value: 'Shops, Schools, Small offices' },
+    ]
   }
 ];
+    
+
     
 
     
