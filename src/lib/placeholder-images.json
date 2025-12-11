@@ -27,25 +27,25 @@
     {
       "id": "project-2",
       "description": "A wide-angle view of a commercial building with a large solar panel array on its roof.",
-      "imageUrl": "https://images.unsplash.com/photo-1711041018462-550f313cb789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjb21tZXJjaWFsJTIwc29sYXJ8ZW58MHx8fHwxNzY1MDAyMzE2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1711041018462-550f313cb789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjb21tZXJjaWFsJTIwc29sYXJ8ZW58MHx8fHwxNzY1MDAyMzE2fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "commercial solar"
     },
     {
       "id": "project-3",
       "description": "A family smiling in front of their home, which has newly installed solar panels.",
-      "imageUrl": "https://images.unsplash.com/photo-1561904794-3d0985ee7ae7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxmYW1pbHklMjBzb2xhcnxlbnwwfHx8fDE3NjQ5OTYxNjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1561904794-3d0985ee7ae7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxmYW1pbHklMjBzb2xhcnxlbnwwfHx8fDE3NjQ5OTYxNjJ8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "family solar"
     },
     {
       "id": "project-4",
       "description": "Drone shot of a rural farm with solar panels powering its operations.",
-      "imageUrl": "https://images.unsplash.com/photo-1502637098811-fa9526d2b659?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzb2xhciUyMGZhcm18ZW58MHx8fHwxNzY0OTE4ODc2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1502637098811-fa9526d2b659?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzb2xhciUyMGZhcm18ZW58MHx8fHwxNzY0OTE4ODc2fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "solar farm"
     },
     {
       "id": "pune-gallery-1",
       "description": "An inverter and battery storage system neatly installed on the side of a house.",
-      "imageUrl": "https://images.unsplash.com/photo-1739268984311-b478fccf256e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzb2xhciUyMGludmVydGVyJTIwYmF0dGVyeXxlbnwwfHx8fDE3NjQ5MTg4NzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1739268984311-b478fccf256e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzb2xhciUyMGludmVydGVyJTIwYmF0dGVyeXxlbnwwfHx8fDE3NjQ5MTg4NzZ8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "solar inverter battery"
     },
     {
@@ -57,7 +57,7 @@
     {
       "id": "mumbai-gallery-1",
       "description": "A team of engineers in safety gear inspecting a large commercial solar installation.",
-      "imageUrl": "https://images.unsplash.com/photo-1542336391-ae2936d8efe4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzb2xhciUyMGVuZ2luZWVycyUyMGluc3BlY3Rpb258ZW58MHx8fHwxNzY1MDEzOTAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1542336391-ae2936d8efe4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzb2xhciUyMGVuZ2luZWVycyUyMGluc3BlY3Rpb258ZW58MHx8fHwxNzY1MDEzOTAwfDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "solar engineers inspection"
     },
     {
@@ -123,7 +123,7 @@
     {
       "id": "cert-iso",
       "description": "Logo for ISO certification.",
-      "imageUrl": "https://png.pngtree.com/png-clipart/20220911/original/pngtree-iso-14001-certified-company-logo-badge-png-image_8540372.png",
+      "imageUrl": "https://i.pinimg.com/736x/4c/9b/4d/4c9b4d020a7d1767a9d02562874343db.jpg",
       "imageHint": "ISO logo"
     },
     {
@@ -137,6 +137,24 @@
       "description": "Logo for Government e-Marketplace (GeM).",
       "imageUrl": "https://media.licdn.com/dms/image/v2/C5612AQFjCaZVLzKRuA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1605088823110?e=2147483647&v=beta&t=TKbX1TiziC0v32WnNC7EwX_-EXxyNl_76Rh_6_v6ZkM",
       "imageHint": "GeM logo"
+    },
+    {
+      "id": "product-panel-1",
+      "description": "A high-efficiency monocrystalline solar panel against a white background.",
+      "imageUrl": "https://images.unsplash.com/flagged/photo-1566838616631-f2618f74a6a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzb2xhciUyMHBhbmVsfGVufDB8fHx8MTc2NTM4MTIwNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "solar panel"
+    },
+    {
+      "id": "product-panel-2",
+      "description": "A cost-effective polycrystalline solar panel shown up close.",
+      "imageUrl": "https://images.unsplash.com/photo-1558449028-b53a39d100fc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzb2xhciUyMHBhbmVsfGVufDB8fHx8MTc2NTM4MTIwNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "solar panel"
+    },
+    {
+      "id": "product-panel-3",
+      "description": "A bifacial solar panel demonstrating its ability to capture light from both sides.",
+      "imageUrl": "https://images.unsplash.com/photo-1765137138067-89abe3f4ba71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxiaWZhY2lhbCUyMHBhbmVsfGVufDB8fHx8MTc2NTQ3MDU4NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bifacial panel"
     }
   ]
 }

@@ -212,4 +212,63 @@ export const certifications = [
   }
 ];
 
+export const shopProducts = [
+  {
+    id: 'panel-mono-550w',
+    slug: 'mono-perc-550w',
+    name: 'SARN Mono-PERC 550W Panel',
+    shortDescription: 'High-efficiency monocrystalline panel for residential and commercial use.',
+    power: '550W',
+    type: 'Monocrystalline PERC',
+    efficiency: '21.3%',
+    price: '25000',
+    imageId: 'product-panel-1',
+    longDescription: 'Our flagship 550W Mono-PERC panel offers exceptional performance and reliability. Featuring advanced PERC technology, it delivers high efficiency even in low-light conditions. Its durable design is certified to withstand harsh weather, making it a perfect choice for the Indian climate. Ideal for rooftop installations where space is a premium.',
+    specifications: [
+      { key: 'Peak Power (Pmax)', value: '550 W' },
+      { key: 'Panel Efficiency', value: '21.3%' },
+      { key: 'Cell Type', value: 'Monocrystalline PERC' },
+      { key: 'Operating Temperature', value: '-40°C to +85°C' },
+      { key: 'Warranty', value: '25-Year Linear Power Output' },
+    ]
+  },
+  {
+    id: 'panel-poly-330w',
+    slug: 'poly-crystalline-330w',
+    name: 'SARN Poly-Crystalline 330W Panel',
+    shortDescription: 'A reliable and cost-effective panel for large-scale solar projects.',
+    power: '330W',
+    type: 'Polycrystalline',
+    efficiency: '17.0%',
+    price: '15000',
+    imageId: 'product-panel-2',
+    longDescription: 'The SARN 330W Polycrystalline panel is the workhorse of our product line. It offers a fantastic balance of performance and affordability, making it an excellent choice for large commercial rooftops and ground-mounted solar farms. Built to last, it provides a dependable energy source for years to come.',
+    specifications: [
+      { key: 'Peak Power (Pmax)', value: '330 W' },
+      { key: 'Panel Efficiency', value: '17.0%' },
+      { key: 'Cell Type', value: 'Polycrystalline' },
+      { key: 'Operating Temperature', value: '-40°C to +85°C' },
+      { key: 'Warranty', value: '25-Year Linear Power Output' },
+    ]
+  },
+    {
+    id: 'panel-bifacial-500w',
+    slug: 'bifacial-500w',
+    name: 'SARN Bifacial 500W Panel',
+    shortDescription: 'Generates power from both sides, maximizing output for ground-mounts.',
+    power: '500W+',
+    type: 'Bifacial Monocrystalline',
+    efficiency: '20.8%',
+    price: '28000',
+    imageId: 'product-panel-3',
+    longDescription: 'Experience the next generation of solar technology with our 500W Bifacial panels. By capturing reflected light from the ground (albedo), these panels can generate up to 30% more energy than traditional panels. They are perfect for ground-mounted installations, carports, and flat commercial roofs with reflective surfaces.',
+    specifications: [
+      { key: 'Peak Power (Pmax)', value: '500 W (front)' },
+      { key: 'Bifacial Gain', value: 'Up to 30%' },
+      { key: 'Panel Efficiency', value: '20.8%' },
+      { key: 'Cell Type', value: 'Bifacial Monocrystalline' },
+      { key: 'Warranty', value: '30-Year Linear Power Output' },
+    ]
+  },
+];
     
