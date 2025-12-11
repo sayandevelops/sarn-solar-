@@ -83,9 +83,10 @@ export default function ProductDetailPage({ params }: Props) {
             </h1>
             <p className="mt-4 text-lg text-muted-foreground">{product.shortDescription}</p>
             
-            <div className="mt-6 prose prose-lg dark:prose-invert max-w-none">
-              <p className="text-muted-foreground">{product.longDescription}</p>
-            </div>
+            <div
+              className="mt-6 prose prose-lg dark:prose-invert max-w-none text-muted-foreground"
+              dangerouslySetInnerHTML={{ __html: product.longDescription }}
+            />
             
             <div className="mt-8">
                 <Button asChild size="lg">
