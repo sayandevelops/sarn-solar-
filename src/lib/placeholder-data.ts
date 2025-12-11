@@ -329,6 +329,26 @@ export const shopProducts = [
         { key: 'Inverter Warranty', value: '5 yrs' },
         { key: 'Applications', value: 'Shops, Schools, Small offices' },
     ]
+  },
+  {
+    id: 'sarn-20kw-on-grid',
+    slug: 'sarn-20kw-on-grid-solar-system',
+    name: 'SARN 20kW On-Grid Solar System (Industrial)',
+    shortDescription: 'Powerful solar solution for large commercial buildings and industries.',
+    power: '20kW',
+    type: 'On-Grid System',
+    efficiency: 'N/A',
+    price: 'N/A',
+    imageId: 'product-panel-6',
+    longDescription: "A high-capacity system designed for significant energy needs and maximum savings.<br/><br/><strong>What’s Included:</strong><br/>✓ 330W × 62 Panels<br/>✓ 20kW Inverter<br/>✓ Structure<br/>✓ Wiring + Commissioning<br/><br/><strong>Generation:</strong> 2,400–2,600 units/month<br/><strong>Savings:</strong> ₹18,000–₹22,000/month",
+    specifications: [
+      { key: 'System Capacity', value: '20kW' },
+      { key: 'Panel Count', value: '330W × 62' },
+      { key: 'Inverter', value: '20kW On-Grid' },
+      { key: 'Generation', value: '2,400–2,600 units/month' },
+      { key: 'Savings', value: '₹18,000–₹22,000/month' },
+      { key: 'Applications', value: 'Factories, Schools, Hospitals, Large offices' }
+    ]
   }
 ];
     

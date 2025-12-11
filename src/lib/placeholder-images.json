@@ -27,7 +27,7 @@
     {
       "id": "project-2",
       "description": "A wide-angle view of a commercial building with a large solar panel array on its roof.",
-      "imageUrl": "https://images.unsplash.com/photo-1711041018462-550f313cb789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjb21tZXJjaWFsJTIwc29sYXJ8ZW58MHx8fHwxNzY1MDAyMzE2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1711041018462-550f313cb789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjb21tZXJjaWFsJTIwc29sYXJ8ZW58MHx8fHwxNzY1MDAyMzE2fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "commercial solar"
     },
     {
@@ -167,6 +167,12 @@
       "description": "A large on-grid solar system on the roof of a commercial building.",
       "imageUrl": "https://images.unsplash.com/photo-1624398193852-3c5834835848?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjb21tZXJjaWFsJTIwc29sYXIlMjBzeXN0ZW18ZW58MHx8fHwxNzY1NTU1MzY3fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "commercial solar"
+    },
+    {
+      "id": "product-panel-6",
+      "description": "A large-scale industrial solar installation on a factory roof.",
+      "imageUrl": "https://images.unsplash.com/photo-1511994132333-6a5036134b22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpbmR1c3RyaWFsJTIwc29sYXJ8ZW58MHx8fHwxNzY1NTYyNzUwfDA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "industrial solar"
     }
   ]
 }
