@@ -54,7 +54,7 @@ Average Monthly Electricity Bill: ₹{{averageElectricityBill}}
 Roof Size: {{roofSize}} square feet
 Location: {{location}}
 
-Ensure the output is accurate and tailored to the user's specific circumstances in India.
+Ensure the output includes a value for 'estimatedSavingsPerMonth' and is accurate and tailored to the user's specific circumstances in India.
 `,
 });
 
