@@ -55,13 +55,6 @@ Roof Size: {{roofSize}} square feet
 Location: {{location}}
 
 Ensure the output is accurate and tailored to the user's specific circumstances in India.
-
-Here's the estimate:
-₹{{output.estimatedSavingsPerMonth}} saved per month.
-₹{{output.estimatedSavingsPerYear}} saved per year.
-{{output.environmentalImpact}}
-Recommended system size: {{output.systemSize}} kW.
-Payback period: {{output.paybackPeriod}} years.
 `,
 });
 
