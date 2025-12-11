@@ -349,6 +349,26 @@ export const shopProducts = [
       { key: 'Savings', value: '₹18,000–₹22,000/month' },
       { key: 'Applications', value: 'Factories, Schools, Hospitals, Large offices' }
     ]
+  },
+  {
+    id: 'sarn-50kw-on-grid',
+    slug: 'sarn-50kw-on-grid-solar-system',
+    name: 'SARN 50kW On-Grid Solar System (Industrial & Corporate)',
+    shortDescription: 'High-capacity industrial-grade solar power plant for heavy consumption.',
+    power: '50kW',
+    type: 'On-Grid System',
+    efficiency: 'N/A',
+    price: 'N/A',
+    imageId: 'product-panel-8',
+    longDescription: "A high-capacity system designed for significant energy needs and maximum savings.<br/><br/><strong>What’s Included:</strong><br/>✓ 330W × 155 Panels<br/>✓ 50kW Inverter<br/>✓ Heavy-duty mounting structure<br/>✓ Commissioning + Testing<br/>✓ Net Metering Assistance<br/><br/><strong>Generation:</strong> 6,000–7,000 units/month<br/><strong>Savings:</strong> ₹45,000–₹55,000/month",
+    specifications: [
+      { key: 'System Capacity', value: '50kW' },
+      { key: 'Panel Count', value: '330W × 155' },
+      { key: 'Inverter', value: '50kW On-Grid' },
+      { key: 'Generation', value: '6,000–7,000 units/month' },
+      { key: 'Savings', value: '₹45,000–₹55,000/month' },
+      { key: 'Applications', value: 'Industries, Warehouses, Production units, Commercial complexes' }
+    ]
   }
 ];
     

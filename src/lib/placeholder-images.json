@@ -27,13 +27,13 @@
     {
       "id": "project-2",
       "description": "A wide-angle view of a commercial building with a large solar panel array on its roof.",
-      "imageUrl": "https://images.unsplash.com/photo-1711041018462-550f313cb789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjb21tZXJjaWFsJTIwc29sYXJ8ZW58MHx8fHwxNzY1MDAyMzE2fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1711041018462-550f313cb789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjb21tZXJjaWFsJTIwc29sYXJ8ZW58MHx8fHwxNzY1MDAyMzE2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "commercial solar"
     },
     {
       "id": "project-3",
       "description": "A family smiling in front of their home, which has newly installed solar panels.",
-      "imageUrl": "https://images.unsplash.com/photo-1561904794-3d0985ee7ae7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxmYW1pbHklMjBzb2xhcnxlbnwwfHx8fDE3NjQ5OTYxNjJ8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1561904794-3d0985ee7ae7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxmYW1pbHklMjBzb2xhcnxlbnwwfHx8fDE3NjQ5OTYxNjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "family solar"
     },
     {
@@ -45,7 +45,7 @@
     {
       "id": "pune-gallery-1",
       "description": "An inverter and battery storage system neatly installed on the side of a house.",
-      "imageUrl": "https://images.unsplash.com/photo-1739268984311-b478fccf256e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzb2xhciUyMGludmVydGVyJTIwYmF0dGVyeXxlbnwwfHx8fDE3NjQ5MTg4NzZ8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1739268984311-b478fccf256e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzb2xhciUyMGludmVydGVyJTIwYmF0dGVyeXxlbnwwfHx8fDE3NjQ5MTg4NzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "solar inverter battery"
     },
     {
@@ -141,7 +141,7 @@
     {
       "id": "product-panel-1",
       "description": "A high-efficiency monocrystalline solar panel against a white background.",
-      "imageUrl": "https://images.unsplash.com/flagged/photo-1566838616631-f2618f74a6a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzb2xhciUyMHBhbmVsfGVufDB8fHx8MTc2NTM4MTIwNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/flagged/photo-1566838616631-f2618f74a6a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzb2xhciUyMHBhbmVsfGVufDB8fHx8MTc2NTM4MTIwNnww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "solar panel"
     },
     {
@@ -173,6 +173,12 @@
       "description": "A large-scale industrial solar installation on a factory roof.",
       "imageUrl": "https://images.unsplash.com/photo-1511994132333-6a5036134b22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpbmR1c3RyaWFsJTIwc29sYXJ8ZW58MHx8fHwxNzY1NTYyNzUwfDA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "industrial solar"
+    },
+    {
+      "id": "product-panel-8",
+      "description": "A very large-scale industrial solar installation on the roof of a massive corporate building or warehouse.",
+      "imageUrl": "https://images.unsplash.com/photo-1579222853704-45371c4c1d2d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxsYXJnZSUyMHNjYWxlJTIwaW5kdXN0cmlhbCUyMHNvbGFyfGVufDB8fHx8MTc2NTU2NTAxOXww&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "large industrial solar"
     }
   ]
 }
