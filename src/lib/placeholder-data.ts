@@ -261,9 +261,9 @@ export const shopProducts = [
       { key: 'Inverter', value: '675VA' },
       { key: 'Battery Voltage', value: '12V' },
       { key: 'Installation', value: 'Included' },
-      { key: 'Panel Warranty', value: '25 Years' },
-      { key: 'Inverter Warranty', value: '5 Years' },
-      { key: 'Battery Warranty', value: '5 Years' },
+      { key: 'Panel Warranty', value: '25 yrs' },
+      { key: 'Inverter Warranty', value: '5 yrs' },
+      { key: 'Battery Warranty', value: '5 yrs' },
       { key: 'Applications', value: 'Homes, Small shops, Backup for tuition classes' },
       { key: 'Monthly Saving', value: '₹500–₹700' },
     ]
@@ -289,5 +289,28 @@ export const shopProducts = [
       { key: 'Monthly Saving', value: '₹900–₹1,200' },
     ]
   },
+  {
+    id: 'sarn-2kw-off-grid',
+    slug: 'sarn-2kw-off-grid-solar-system',
+    name: 'SARN 2kW Off-Grid Solar System (Home + Business)',
+    shortDescription: 'High-power system perfect for larger homes and small offices needing reliable backup.',
+    power: '2kW',
+    type: 'Off-Grid System',
+    efficiency: 'N/A',
+    price: 'N/A',
+    imageId: 'product-panel-4',
+    longDescription: 'Supports TV + Fans + Lights. Strong 2.2kVA inverter for heavy-duty performance.<br/><br/><strong>What’s Included:</strong><br/>✓ 2.2kVA Off-Grid Inverter<br/>✓ 330W × 5 Panels<br/>✓ 150Ah Battery<br/>✓ Structure & BOS<br/>✓ Installation<br/><br/><strong>Load Capacity:</strong><br/>10–12 LED Lights, 4–5 Fans, TV, Desktop computer, Small fridge (optional).',
+    specifications: [
+        { key: 'System Capacity', value: '2kW' },
+        { key: 'Panels', value: '330W × 5' },
+        { key: 'Inverter', value: '2.2kVA' },
+        { key: 'Voltage', value: '24V/48V' },
+        { key: 'Installation', value: 'Included' },
+        { key: 'Applications', value: 'Homes, Offices, Coaching centres' },
+        { key: 'Savings', value: '₹1,500–₹2,000/month' }
+    ]
+  }
 ];
+    
+
     
