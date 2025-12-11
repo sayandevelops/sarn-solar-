@@ -157,7 +157,16 @@ export default function EstimatorForm() {
                 <CardHeader>
                     <CardTitle className="font-headline text-2xl text-center">Your Estimated Solar Impact</CardTitle>
                 </CardHeader>
-                <CardContent className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+                <CardContent className="grid grid-cols-1 md:grid-cols-2 gap-6 text-center">
+                    <div className="flex flex-col items-center p-4 bg-secondary rounded-lg">
+                        <div className="h-10 w-10 text-accent mb-2 flex items-center justify-center">
+                          <Rupee />
+                        </div>
+                        <h3 className="text-muted-foreground text-sm font-bold uppercase">Monthly Savings</h3>
+                        <p className="text-3xl font-bold font-headline text-primary">
+                            ₹{result.estimatedSavingsPerMonth.toLocaleString('en-IN')}
+                        </p>
+                    </div>
                     <div className="flex flex-col items-center p-4 bg-secondary rounded-lg">
                         <div className="h-10 w-10 text-accent mb-2 flex items-center justify-center">
                           <Rupee />

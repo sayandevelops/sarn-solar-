@@ -21,6 +21,9 @@ const CostSavingsEstimateInputSchema = z.object({
 export type CostSavingsEstimateInput = z.infer<typeof CostSavingsEstimateInputSchema>;
 
 const CostSavingsEstimateOutputSchema = z.object({
+  estimatedSavingsPerMonth: z
+    .number()
+    .describe('Estimated cost savings per month in INR.'),
   estimatedSavingsPerYear: z
     .number()
     .describe('Estimated cost savings per year in INR.'),
@@ -45,7 +48,7 @@ You will estimate the cost savings and environmental impact of installing SARN S
 
 Consider factors such as solar irradiance based on location in India, typical energy consumption, and current solar panel efficiencies.
 
-Calculate the estimated cost savings per year in INR, describe the positive environmental impact, recommend a solar system size, and estimate the payback period.
+Calculate the estimated cost savings per month and per year in INR, describe the positive environmental impact, recommend a solar system size, and estimate the payback period.
 
 Average Monthly Electricity Bill: ₹{{averageElectricityBill}}
 Roof Size: {{roofSize}} square feet
@@ -54,6 +57,7 @@ Location: {{location}}
 Ensure the output is accurate and tailored to the user's specific circumstances in India.
 
 Here's the estimate:
+₹{{output.estimatedSavingsPerMonth}} saved per month.
 ₹{{output.estimatedSavingsPerYear}} saved per year.
 {{output.environmentalImpact}}
 Recommended system size: {{output.systemSize}} kW.
