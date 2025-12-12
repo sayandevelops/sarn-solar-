@@ -6,7 +6,7 @@ import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@/componen
 import { Button } from '@/components/ui/button';
 import { shopProducts } from '@/lib/placeholder-data';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
-import { ArrowRight, ShoppingCart, Zap } from 'lucide-react';
+import { ArrowRight, ShoppingCart, Zap, Tag } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 
 export const metadata: Metadata = {
@@ -53,6 +53,12 @@ export default function ShopPage() {
                   <CardTitle className="font-headline text-xl h-14">
                     <Link href={`/shop/${product.slug}`} className="hover:text-primary transition-colors">{product.name}</Link>
                   </CardTitle>
+                  {product.cardPrice && (
+                      <div className="flex items-center gap-2 pt-2 text-sm text-muted-foreground">
+                        <Tag className="h-4 w-4" />
+                        <span className="font-semibold">{product.cardPrice}</span>
+                      </div>
+                    )}
                 </CardHeader>
                 <CardContent className="flex-grow">
                   <p className="text-muted-foreground">{product.shortDescription}</p>
