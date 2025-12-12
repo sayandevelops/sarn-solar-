@@ -386,7 +386,7 @@ export const shopProducts = [
     id: 'sarn-50kw-on-grid',
     slug: 'sarn-50kw-on-grid-solar-system',
     name: 'SARN 50kW On-Grid Solar System (Industrial & Corporate)',
-    shortDescription: 'High-capacity industrial-grade solar power plant for heavy consumption.',
+    shortDescription: "High-capacity industrial-grade solar power plant for heavy consumption.",
     power: '50kW',
     type: 'On-Grid System',
     efficiency: 'N/A',
@@ -410,6 +410,7 @@ export const shopProducts = [
     
 
     
+
 
 
 

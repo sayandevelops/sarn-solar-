@@ -160,7 +160,7 @@ export default function EstimatorForm() {
                 <CardContent className="grid grid-cols-1 md:grid-cols-2 gap-6 text-center">
                     <div className="flex flex-col items-center p-4 bg-secondary rounded-lg">
                         <div className="h-10 w-10 text-accent mb-2 flex items-center justify-center">
-                          <Rupee />
+                          <span className="text-3xl font-bold font-headline text-primary">₹</span>
                         </div>
                         <h3 className="text-muted-foreground text-sm font-bold uppercase">Monthly Savings</h3>
                         <p className="text-3xl font-bold font-headline text-primary">
@@ -169,7 +169,7 @@ export default function EstimatorForm() {
                     </div>
                     <div className="flex flex-col items-center p-4 bg-secondary rounded-lg">
                         <div className="h-10 w-10 text-accent mb-2 flex items-center justify-center">
-                          <Rupee />
+                           <span className="text-3xl font-bold font-headline text-primary">₹</span>
                         </div>
                         <h3 className="text-muted-foreground text-sm font-bold uppercase">Annual Savings</h3>
                         <p className="text-3xl font-bold font-headline text-primary">
