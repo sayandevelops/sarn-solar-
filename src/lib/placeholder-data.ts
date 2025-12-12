@@ -221,10 +221,11 @@ export const shopProducts = [
     power: '320W',
     type: 'Off-Grid System',
     efficiency: '15-17%',
-    price: '35000',
+    price: 'Approx Starting Price: ₹35,000+ (Price varies based on inverter & battery configuration. Get your customized quotation — Contact for best offer.)',
     imageId: 'product-panel-1',
     longDescription: 'A complete off-grid solution, this system is low maintenance and runs essential home loads. It is affordable and best for beginners.<br/><br/><strong>Highlights:</strong> Complete off-grid solution, Low maintenance, Runs essential home loads, Affordable & best for beginners.<br/><br/><strong>What’s Included:</strong><br/>✓ 675VA 12V SHAMS Inverter<br/>✓ 160W × 2 Solar Panels<br/>✓ 150Ah Tubular Battery<br/>✓ GI Mounting Structure<br/>✓ Cables, connectors & BOS<br/>✓ Full installation at site<br/><br/><strong>Load Capacity (What it can run):</strong><br/>3–4 LED Bulbs, 1 Ceiling Fan, Mobile Charging, WiFi Router. (Not suitable for TV, fridge, pump.)',
     specifications: [
+      { key: 'Price', value: 'Approx Starting Price: ₹35,000+' },
       { key: 'System Capacity', value: '320W' },
       { key: 'Panel Type', value: 'Polycrystalline / Mono' },
       { key: 'Panel Count', value: '160W × 2' },
@@ -251,10 +252,11 @@ export const shopProducts = [
     power: '500W',
     type: 'Off-Grid System',
     efficiency: 'N/A',
-    price: '45000',
+    price: 'Approx Starting Price: ₹48,000+ (Final cost depends on panel type & installation location. Get personalized pricing — Contact now.)',
     imageId: 'product-panel-2',
     longDescription: 'Better performance than the 320W system, this stable backup solution offers a long battery life.<br/><br/><strong>Highlights:</strong> Better performance than 320W, Stable backup solution, Long battery life.<br/><br/><strong>What’s Included:</strong><br/>✓ 675VA Off-Grid Inverter<br/>✓ 160W × 3 Solar Panels<br/>✓ 150Ah Battery<br/>✓ Structure + BOS<br/>✓ Installation<br/><br/><strong>Load Capacity (What it can run):</strong><br/>4–5 LED Bulbs, 2 Ceiling Fans, TV (optional, low consumption), Laptop / Mobile Charging.',
     specifications: [
+      { key: 'Price', value: 'Approx Starting Price: ₹48,000+' },
       { key: 'System Capacity', value: '500W' },
       { key: 'Panel Count', value: '160W × 3' },
       { key: 'Battery', value: '150Ah' },
@@ -276,10 +278,11 @@ export const shopProducts = [
     power: '1kW',
     type: 'Off-Grid System',
     efficiency: 'N/A',
-    price: 'N/A',
+    price: 'Approx Starting Price: ₹75,000+ (Price varies based on battery capacity & inverter model. Get your custom quote — Contact for the best price.)',
     imageId: 'product-panel-3',
     longDescription: 'A powerful system with a 1kVA inverter, suitable for both rural and urban homes, providing long battery backup.<br/><br/><strong>Highlights:</strong> Powerful 1kVA inverter, Suitable for rural & urban homes, Long battery backup.<br/><br/><strong>What’s Included:</strong><br/>✓ 1kVA Off-Grid Inverter<br/>✓ 330W × 3 Panels<br/>✓ 150Ah Battery<br/>✓ Structure<br/>✓ Wiring + Installation<br/><br/><strong>Load Capacity:</strong><br/>5–8 LED Lights, 3 Ceiling Fans, 1 LED TV, Laptop + Router.',
     specifications: [
+      { key: 'Price', value: 'Approx Starting Price: ₹75,000+' },
       { key: 'System Capacity', value: '1kW' },
       { key: 'Panel Count', value: '330W × 3' },
       { key: 'Battery', value: '150Ah' },
@@ -297,10 +300,11 @@ export const shopProducts = [
     power: '2kW',
     type: 'Off-Grid System',
     efficiency: 'N/A',
-    price: 'N/A',
+    price: 'Approx Starting Price: ₹1,40,000+ (Exact cost depends on panel selection & site installation. Request your customized quotation today.)',
     imageId: 'product-panel-4',
     longDescription: 'Supports TV + Fans + Lights. Strong 2.2kVA inverter for heavy-duty performance.<br/><br/><strong>What’s Included:</strong><br/>✓ 2.2kVA Off-Grid Inverter<br/>✓ 330W × 5 Panels<br/>✓ 150Ah Battery<br/>✓ Structure & BOS<br/>✓ Installation<br/><br/><strong>Load Capacity:</strong><br/>10–12 LED Lights, 4–5 Fans, TV, Desktop computer, Small fridge (optional).',
     specifications: [
+        { key: 'Price', value: 'Approx Starting Price: ₹1,40,000+' },
         { key: 'System Capacity', value: '2kW' },
         { key: 'Panels', value: '330W × 5' },
         { key: 'Inverter', value: '2.2kVA' },
@@ -318,16 +322,36 @@ export const shopProducts = [
     power: '5kW',
     type: 'On-Grid System',
     efficiency: 'N/A',
-    price: 'N/A',
+    price: 'Approx Starting Price: ₹2,70,000+ (Price varies based on structure type & wiring length. Contact for your commercial quotation.)',
     imageId: 'product-panel-5',
     longDescription: "No battery needed, providing maximum bill savings with a 5kW smart THEA inverter.<br/><br/><strong>Highlights:</strong> No battery needed, Maximum bill savings, 5kW smart THEA inverter.<br/><br/><strong>What’s Included:</strong><br/>✓ 330W × 16 Panels<br/>✓ 5kW On-Grid Inverter<br/>✓ Structure<br/>✓ BOS<br/>✓ Installation + Net Metering Support<br/><br/><strong>Load Capacity / Output:</strong><br/>Monthly generation: 550–650 units<br/>Saves: ₹4,000–₹6,000/month",
     specifications: [
+        { key: 'Price', value: 'Approx Starting Price: ₹2,70,000+' },
         { key: 'System Capacity', value: '5kW' },
         { key: 'Inverter', value: 'THEA' },
         { key: 'Voltage', value: '230/415V' },
         { key: 'Panel Warranty', value: '25 yrs' },
         { key: 'Inverter Warranty', value: '5 yrs' },
         { key: 'Applications', value: 'Shops, Schools, Small offices' },
+    ]
+  },
+  {
+    id: 'sarn-10kw-on-grid',
+    slug: 'sarn-10kw-on-grid-solar-system',
+    name: 'SARN 10kW On-Grid Solar System (Commercial)',
+    shortDescription: 'A robust solar solution for mid-sized commercial establishments.',
+    power: '10kW',
+    type: 'On-Grid System',
+    efficiency: 'N/A',
+    price: 'Approx Starting Price: ₹5,00,000+ (Cost depends on panel quality & rooftop design. Get your custom offer — Contact now.)',
+    imageId: 'product-panel-6',
+    longDescription: "This 10kW system is a powerhouse for businesses looking to make a significant dent in their electricity bills. It's an ideal choice for clinics, restaurants, and medium-sized offices.<br/><br/><strong>What’s Included:</strong><br/>✓ High-Efficiency Solar Panels (Total 10kW)<br/>✓ 10kW On-Grid Inverter<br/>✓ Galvanized Iron (GI) Structure<br/>✓ Complete Balance of System (BOS)<br/>✓ Installation & Commissioning<br/>✓ Net Metering Application Support",
+    specifications: [
+      { key: 'Price', value: 'Approx Starting Price: ₹5,00,000+' },
+      { key: 'System Capacity', value: '10kW' },
+      { key: 'Monthly Generation', value: '1100-1300 units' },
+      { key: 'Monthly Savings', value: '₹8,000 - ₹10,000' },
+      { key: 'Applications', value: 'Clinics, Restaurants, Mid-sized Offices' }
     ]
   },
   {
@@ -338,10 +362,11 @@ export const shopProducts = [
     power: '20kW',
     type: 'On-Grid System',
     efficiency: 'N/A',
-    price: 'N/A',
+    price: 'Approx Starting Price: ₹9,00,000+ (Price may vary based on site load & inverter brand. Contact us for a customized pricing plan.)',
     imageId: 'product-panel-6',
     longDescription: "A high-capacity system designed for significant energy needs and maximum savings.<br/><br/><strong>What’s Included:</strong><br/>✓ 330W × 62 Panels<br/>✓ 20kW Inverter<br/>✓ Structure<br/>✓ Wiring + Commissioning<br/><br/><strong>Generation:</strong> 2,400–2,600 units/month<br/><strong>Savings:</strong> ₹18,000–₹22,000/month",
     specifications: [
+      { key: 'Price', value: 'Approx Starting Price: ₹9,00,000+' },
       { key: 'System Capacity', value: '20kW' },
       { key: 'Panel Count', value: '330W × 62' },
       { key: 'Inverter', value: '20kW On-Grid' },
@@ -358,10 +383,11 @@ export const shopProducts = [
     power: '50kW',
     type: 'On-Grid System',
     efficiency: 'N/A',
-    price: 'N/A',
+    price: 'Approx Starting Price: ₹19,00,000+ (Final cost depends on installation type & plant design. Request your tailored quotation — Contact for best offer.)',
     imageId: 'product-panel-8',
     longDescription: "A high-capacity system designed for significant energy needs and maximum savings.<br/><br/><strong>What’s Included:</strong><br/>✓ 330W × 155 Panels<br/>✓ 50kW Inverter<br/>✓ Heavy-duty mounting structure<br/>✓ Commissioning + Testing<br/>✓ Net Metering Assistance<br/><br/><strong>Generation:</strong> 6,000–7,000 units/month<br/><strong>Savings:</strong> ₹45,000–₹55,000/month",
     specifications: [
+      { key: 'Price', value: 'Approx Starting Price: ₹19,00,000+' },
       { key: 'System Capacity', value: '50kW' },
       { key: 'Panel Count', value: '330W × 155' },
       { key: 'Inverter', value: '50kW On-Grid' },
@@ -376,5 +402,6 @@ export const shopProducts = [
     
 
     
+
 
 

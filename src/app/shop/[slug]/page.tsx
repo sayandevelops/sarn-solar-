@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { shopProducts } from '@/lib/placeholder-data';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Metadata } from 'next';
-import { ArrowLeft, CheckCircle, ShoppingCart, Zap } from 'lucide-react';
+import { ArrowLeft, CheckCircle, ShoppingCart, Zap, Tag } from 'lucide-react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
@@ -87,6 +87,15 @@ export default function ProductDetailPage({ params }: Props) {
               className="mt-6 prose prose-lg dark:prose-invert max-w-none text-muted-foreground"
               dangerouslySetInnerHTML={{ __html: product.longDescription }}
             />
+
+            {product.price && (
+              <div className="mt-6 p-4 bg-secondary rounded-lg border border-border">
+                <div className="flex items-center gap-3">
+                    <Tag className="h-6 w-6 text-primary"/>
+                    <p className="font-semibold text-foreground">{product.price}</p>
+                </div>
+              </div>
+            )}
             
             <div className="mt-8">
                 <Button asChild size="lg" variant="destructive">
