@@ -261,7 +261,7 @@ export default function Home() {
                     <p className="text-muted-foreground">{product.shortDescription}</p>
                   </CardContent>
                   <CardFooter className="flex flex-col sm:flex-row gap-2 justify-between">
-                    <Button asChild>
+                    <Button asChild variant="destructive">
                       <Link href={whatsappUrl} target="_blank" rel="noopener noreferrer">
                         <ShoppingCart className="mr-2 h-4 w-4" /> Buy Now
                       </Link>
@@ -303,5 +303,3 @@ export default function Home() {
     </div>
   );
 }
-
-    

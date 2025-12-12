@@ -89,7 +89,7 @@ export default function ProductDetailPage({ params }: Props) {
             />
             
             <div className="mt-8">
-                <Button asChild size="lg">
+                <Button asChild size="lg" variant="destructive">
                     <Link href={whatsappUrl} target="_blank" rel="noopener noreferrer">
                       <ShoppingCart className="mr-2 h-5 w-5" /> Buy Now / Inquire
                     </Link>
