@@ -6,7 +6,7 @@ import Image from 'next/image';
 export function Footer() {
   const address = "Swapna Neer Apartment. 05, RNC Road, Kolkata-700147";
   const mapsUrl = "https://maps.app.goo.gl/FzW8RMMktxNfbmQV8";
-  const email = "contact@sarnsolar.in";
+  const emails = ["contact@sarnsolar.in", "sarnsolar@gmail.com"];
   const phone = "+91 94326 89034";
   
   return (
@@ -65,11 +65,13 @@ export function Footer() {
                   {phone}
                 </Link>
               </li>
-              <li>
-                <Link href={`mailto:${email}`} className="hover:text-primary transition-colors">
-                  {email}
-                </Link>
-              </li>
+              {emails.map((email) => (
+                <li key={email}>
+                  <Link href={`mailto:${email}`} className="hover:text-primary transition-colors">
+                    {email}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
         </div>

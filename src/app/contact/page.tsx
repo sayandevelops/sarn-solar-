@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   const address = "Swapna Neer Apartment. 05, RNC Road, Kolkata-700147";
   const mapsUrl = "https://maps.app.goo.gl/FzW8RMMktxNfbmQV8";
-  const email = "contact@sarnsolar.in";
+  const emails = ["contact@sarnsolar.in", "sarnsolar@gmail.com"];
   const phone = "+91 94326 89034";
 
   return (
@@ -50,9 +50,13 @@ export default function ContactPage() {
               </div>
               <div>
                 <h3 className="font-semibold text-lg">Email Us</h3>
-                <Link href={`mailto:${email}`} className="text-muted-foreground hover:text-primary transition-colors">
-                  {email}
-                </Link>
+                <div className="flex flex-col">
+                  {emails.map((email) => (
+                    <Link key={email} href={`mailto:${email}`} className="text-muted-foreground hover:text-primary transition-colors">
+                      {email}
+                    </Link>
+                  ))}
+                </div>
               </div>
             </div>
             <div className="flex items-start gap-4">
