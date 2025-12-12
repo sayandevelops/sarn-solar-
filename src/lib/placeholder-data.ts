@@ -369,11 +369,12 @@ export const shopProducts = [
       { key: 'Savings', value: '₹45,000–₹55,000/month' },
       { key: 'Applications', value: 'Industries, Warehouses, Production units, Commercial complexes' }
     ]
-  }
+  },
 ];
     
 
     
 
     
+
 
