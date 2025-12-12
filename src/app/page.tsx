@@ -277,7 +277,7 @@ export default function Home() {
             })}
           </div>
            <div className="text-center mt-12">
-            <Button asChild size="lg">
+            <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90">
               <Link href="/shop">
                 View All Products <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
