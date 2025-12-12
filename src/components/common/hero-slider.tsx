@@ -3,7 +3,7 @@
 import * as React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, ShoppingCart } from 'lucide-react';
 import {
   Carousel,
   CarouselContent,
@@ -56,11 +56,18 @@ export function HeroSlider() {
                 <p className="mt-4 max-w-2xl text-lg md:text-xl drop-shadow-lg">
                   {banner.subtitle}
                 </p>
-                <Button asChild size="lg" className="mt-8 bg-accent text-accent-foreground hover:bg-accent/90 shadow-lg drop-shadow-lg">
-                  <Link href={banner.buttonLink}>
-                    {banner.buttonText} <ArrowRight className="ml-2 h-5 w-5" />
-                  </Link>
-                </Button>
+                <div className="mt-8 flex flex-col sm:flex-row gap-4">
+                  <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 shadow-lg drop-shadow-lg">
+                    <Link href={banner.buttonLink}>
+                      {banner.buttonText} <ArrowRight className="ml-2 h-5 w-5" />
+                    </Link>
+                  </Button>
+                   <Button asChild size="lg" variant="outline" className="bg-transparent border-primary-foreground text-primary-foreground hover:bg-primary-foreground/10 shadow-lg drop-shadow-lg">
+                    <Link href="/shop">
+                      <ShoppingCart className="mr-2 h-5 w-5" /> Visit Shop
+                    </Link>
+                  </Button>
+                </div>
               </div>
             </div>
           </CarouselItem>
